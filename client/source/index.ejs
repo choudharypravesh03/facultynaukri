@@ -1,0 +1,67 @@
+<html>
+<head>
+    <script type="text/javascript" src="vendor/angular/angular.js"></script>
+</head>
+<body ng-app="myApp">
+    <div ng-controller="myController">
+        <div>Hello World</div>
+        <button ng-click="addData()">Click me to add data to database</button>
+        <button ng-click="getData()">Display data below</button>
+
+        <div>{{getdata}}</div>
+    </div>
+    <script>
+        var app = angular.module('myApp', []);
+        app.controller('myController', function($scope, $http) {
+
+            $scope.getdata = "hello";
+
+            $scope.addData = function() {
+                console.log("coming here");
+                var jobseekerData = {
+                    jobseeker_name: "Pravesh",
+                    jobseeker_email: "choudharypravesh03@gmail.com",
+                    contact_no: "8989803020",
+                    city: "Bhopal",
+                    address: "Bhopal"
+                }
+                var data = JSON.stringify(jobseekerData);
+                $http({
+                    method: 'POST',
+                    url: '/addJobSeeker',
+                    data: "details=" +data,
+                    headers: {
+                        "Content-Type": 'application/x-www-form-urlencoded'
+                    }
+                })
+                    .success(function(data) {
+                        console.log(data);
+                    })
+                    .error(function(err) {
+                        console.log(err);
+                    })
+            };
+
+
+            $scope.getData = function() {
+                $http({
+                    method: 'GET',
+                    url: '/getJobSeeker',
+                    data: '',
+                    headers: {
+                        "Content-Type": 'application/x-www-form-urlencoded'
+                    }
+                })
+                    .success(function(response) {
+                        $scope.getdata = response.data;
+                        console.log(response);
+                    })
+                    .error(function(err) {
+                        console.log(err);
+                    })
+            }
+        });
+    </script>
+</body>
+
+</html>
