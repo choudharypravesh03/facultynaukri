@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var apis = require('../api/tpm_api.js');
+var apis = require('../api/jobseeker.js');
 
 
 router.get('/', function(req, res) {
@@ -11,6 +11,7 @@ router.get('/', function(req, res) {
 
 router.post('/addJobSeeker', apis.addJobSeeker);
 router.get('/getJobSeeker', apis.getJobSeeker);
+router.post('/updateJobSeeker', apis.updateJobSeeker);
 
 
 module.exports = router;

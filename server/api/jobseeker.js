@@ -28,3 +28,17 @@ exports.getJobSeeker = function(req, res) {
         }))
     })
 }
+
+exports.updateJobSeeker(function (req, res) {
+    var params = JSON.parse(req.body.details);
+    JobSeeker.update(params, function(s,c,m,d){
+        console.log(params.toString())
+        res.send(JSON.stringify({
+            status : s,
+            code : c,
+            message : m,
+            data :d
+        }))
+    })
+
+})
