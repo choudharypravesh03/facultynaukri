@@ -1,6 +1,8 @@
 var _ = require('underscore');
 var INSTALLATION_DB = require('../config/faculty_naukri_db');
 var mysql = require(INSTALLATION_DB.MYSQL_SCHEMA_MAIN)
+var sequelize = require('sequelize')
+
 
 exports.add = function(params, callback) {
     console.log("PARAMS FOR ADD JOBSEEKER "+JSON.stringify(params));
@@ -19,8 +21,7 @@ exports.add = function(params, callback) {
 exports.get = function(params, callback) {
     console.log("PARAMS FOR GET JOBSEEKER "+JSON.stringify(params));
 
-    MySql.jobseeker.findAll({
-        where: params,
+    mysql.jobseeker.findAll({
         order: '"updatedAt" DESC'
     }).then(function(jobseekers) {
         console.log("SUCCESS RESPONSE "+JSON.stringify(jobseekers));
@@ -32,8 +33,15 @@ exports.get = function(params, callback) {
 }
 
 
-exports.update =  function(params, callback){
+exports.update =  function(params, update_params, callback){
     console.logs("PARAMS FOR UPDATE JOBSEEKER " + JSON.stringify());
+    mysql.jobseeker.update(update_params, {
+        where : params
+    }).then(function(data){
+        callback(true, 200, "Success", jobseekers);
+    }).catch(function(err) {
+        callback(false, 300, "Error : " + err, {});
+    })
 
 }
 

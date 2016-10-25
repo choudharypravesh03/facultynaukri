@@ -7,15 +7,14 @@ var mysql = require(INSTALLATION_DB.MYSQL_SCHEMA_MAIN)
 var sequelize = require('sequelize')
 
 exports.get = function(params, callback) {
-    console.log("PARAMS FOR GET CITY "+JSON.stringify(params));
+    console.log("PARAMS FOR GET RECRUITER_REQUIREMENTS "+JSON.stringify(params));
 
-    mysql.city.findAll({
-        where : params,
-        attributes : ['city_id', 'city_name'],
-        order: 'city_state_name ASC'
-    }).then(function(city) {
-        console.log("SUCCESS RESPONSE "+JSON.stringify(city));
-        callback(true, 200, "Success", city);
+    mysql.recruiter_requirement.findAll({
+        attributes : ['req_id', 'name'],
+        order: 'req_id ASC'
+    }).then(function(jobseekers) {
+        console.log("SUCCESS RESPONSE "+JSON.stringify(jobseekers));
+        callback(true, 200, "Success", jobseekers);
     }).catch(function(err) {
         callback(false, 300, "Error : " + err, {});
     });

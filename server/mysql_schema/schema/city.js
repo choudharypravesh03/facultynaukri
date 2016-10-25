@@ -11,16 +11,11 @@ module.exports = function (sequelize, DataTypes) {
             },
             city_name: {
                 type: DataTypes.STRING,
-                allowNull: false,
-                unique: true
+                allowNull: false
             },
-            city_state_id: {
-                type: DataTypes.INTEGER,
+            city_state: {
+                type: DataTypes.STRING,
                 allowNull: false,
-                references: {
-                    model: 'state',
-                    key: 'state_id'
-                }
             }
         },
         {

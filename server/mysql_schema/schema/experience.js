@@ -23,7 +23,7 @@ module.exports = function (sequelize, DataTypes) {
                 allowNull : false
             },
             experience_is_current : {
-                type : DataTypes.INTEGER,
+                type : DataTypes.BOOLEAN,
                 allowNull : true
             },
             experience_notice_period : {
@@ -37,7 +37,7 @@ module.exports = function (sequelize, DataTypes) {
         },
 {
     freezeTableName : true,
-    tableName : 'eperience'
+    tableName : 'experience'
 })
     return experience;
 

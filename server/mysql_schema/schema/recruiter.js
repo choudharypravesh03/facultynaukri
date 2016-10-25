@@ -18,7 +18,7 @@ module.exports = function (sequelize, DataTypes) {
             allowNull : false
         },
         recruiter_contact : {
-            type : DataTypes.INTEGER,
+            type : DataTypes.BIGINT,
             unique : true,
             allowNull : false
         },
@@ -27,7 +27,7 @@ module.exports = function (sequelize, DataTypes) {
             allowNull : false
         },
         institution_address : {
-            type : DataTypes.STRING,
+            type : DataTypes.TEXT,
             allowNull : false
         },
         institution_pincode : {

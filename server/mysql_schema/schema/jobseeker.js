@@ -17,12 +17,12 @@ module.exports = function(sequelize, DataTypes) {
             unique : true
         },
         jobseeker_contact : {
-            type : DataTypes.INTEGER,
+            type : DataTypes.BIGINT,
             allowNull : false,
             unique : true
         },
         jobseeker_dob : {
-            type : DataTypes.INTEGER,
+            type : DataTypes.BIGINT,
             allowNull : false
         },
         jobseeker_gender : {
@@ -46,7 +46,7 @@ module.exports = function(sequelize, DataTypes) {
         jobseeker_expected_ctc : DataTypes.INTEGER,
         jobseeker_marital_status : DataTypes.INTEGER,
         jobseeker_resume : DataTypes.STRING,
-        jobseeker_remarks : DataTypes.STRING,
+        jobseeker_remarks : DataTypes.TEXT,
         jobseeker_preferred_job_location : {
             type : DataTypes.INTEGER
         },
@@ -57,9 +57,13 @@ module.exports = function(sequelize, DataTypes) {
             type : DataTypes.STRING,
             allowNull : false
         }
+    },
+        {
+            freezeTableName : true,
+            tableName : 'jobseeker'
+
 
 
     });
-    module.exports = jobseeker;
     return jobseeker;
 }

@@ -1,6 +1,12 @@
 var express = require('express');
 var router = express.Router();
-var apis = require('../api/jobseeker.js');
+var apisJobSeeker = require('../api/jobseeker');
+var apisCity = require('../api/city');
+var apisState = require('../api/state');
+var apisExperience = require('../api/experience');
+var apisRecruiter = require('../api/recruiter');
+var apisRecruiterRequirements = require('../api/recruiter_requirements');
+var apisSubject = require('../api/subject');
 
 
 router.get('/', function(req, res) {
@@ -9,9 +15,25 @@ router.get('/', function(req, res) {
 })
 
 
-router.post('/addJobSeeker', apis.addJobSeeker);
-router.get('/getJobSeeker', apis.getJobSeeker);
-router.post('/updateJobSeeker', apis.updateJobSeeker);
+router.post('/addJobSeeker', apisJobSeeker.addJobSeeker);
+router.get('/getJobSeeker', apisCity.getCity);
+/*router.post('/updateJobSeeker', apis.updateJobSeeker);*/
+
+router.post('/addSubject', apisSubject.addSubject);
+router.get('/getSubjects', apisSubject.getSubjects);
+
+router.post('/addRecuiter', apisRecruiter.addRecruiter);
+
+router.get('/getCity' , apisCity.getCity);
+
+router.get('/getStates', apisState.getStates);
+
+router.post('/addExperience', apisExperience.addExperience);
+router.get('/getExperiences', apisExperience.getExperiences);
+
+router.get('/getRecruiterRequirements', apisRecruiterRequirements.getRecruiterRequirements);
+
+
 
 
 module.exports = router;
