@@ -17,10 +17,11 @@ router.get('/', function(req, res) {
 
 router.post('/addJobSeeker', apisJobSeeker.addJobSeeker);
 router.get('/getJobSeeker', apisCity.getCity);
-/*router.post('/updateJobSeeker', apis.updateJobSeeker);*/
+router.post('/updateJobSeeker', apisJobSeeker.updateJobSeeker);
 
 router.post('/addSubject', apisSubject.addSubject);
 router.get('/getSubjects', apisSubject.getSubjects);
+router.post('/updateSubjectVacancy', apisSubject.updateSubjectVacancies())
 
 router.post('/addRecuiter', apisRecruiter.addRecruiter);
 
@@ -28,7 +29,6 @@ router.get('/getCity' , apisCity.getCity);
 
 router.get('/getStates', apisState.getStates);
 
-router.post('/addExperience', apisExperience.addExperience);
 router.get('/getExperiences', apisExperience.getExperiences);
 
 router.get('/getRecruiterRequirements', apisRecruiterRequirements.getRecruiterRequirements);
