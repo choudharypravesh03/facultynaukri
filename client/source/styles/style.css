@@ -1,0 +1,82 @@
+.jobseeker-create-container {
+    background-color: #fcfcfc;
+}
+
+.label-wrapper {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.form-control {
+    height: 40px;
+}
+
+.calender-button button {
+    height: 40px;
+}
+
+.submit-container {
+    margin: 0;
+    text-align: center;
+}
+
+#login-container {
+    background-color: #DDD;
+    height: 100vh;
+}
+
+.login-wrapper {
+    position: relative;
+    top: 8em;
+    left: 0;
+    background-color: #ffffff;
+    padding: 30px 25px;
+    right: 0;
+    text-align: center;
+    width: 30vw;
+    margin: 0 auto;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    z-index: 5;
+}
+
+.login-wrapper:hover {
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+
+.caret-position {
+    position: absolute;
+    float: right;
+    bottom: 18px;
+    right: 10px;
+}
+
+
+#requirements-table .tables-shadow-box {
+    background-color: #ffffff;
+    padding: 25px 25px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+
+/*
+HOME PAGE*/
+
+#home-header {
+    height: 65vh;
+    padding-top: 4%;
+}
+
+.transparent {
+    height: 100%;
+    background: rgba(0,0,0,.5);
+}
+
+
+.aboutus-back {
+    background-image: url('../images/aboutus-back.png');
+    background-attachment: fixed;
+}

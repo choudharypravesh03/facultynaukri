@@ -3,8 +3,8 @@ var router = express.Router();
 var apis = require('../api/tpm_api.js');
 
 
-router.get('/', function(req, res) {
-    console.log("coming into /");
+router.get('*', function(req, res) {
+    console.log("yo");
     res.render('index.ejs');
 })
 
