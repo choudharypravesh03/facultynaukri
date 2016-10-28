@@ -33,6 +33,7 @@ module.exports = function(sequelize, DataTypes) {
             type : DataTypes.STRING,
             allowNull : false
         },
+            jobseeker_interested_in : DataTypes.STRING,
         jobseeker_permanent_address : DataTypes.STRING,
         jobseeker_current_address : DataTypes.STRING,
         jobseeker_permanent_pincode : DataTypes.INTEGER,
@@ -40,19 +41,15 @@ module.exports = function(sequelize, DataTypes) {
         jobseeker_is_experienced : DataTypes.INTEGER,
         jobseeker_subject_name : DataTypes.STRING,
         jobseeker_level : DataTypes.STRING,
-        jobseeker_interested_in : DataTypes.STRING,
-        jobseeker_standard_name : DataTypes.STRING,
         jobseeker_current_ctc : DataTypes.INTEGER,
         jobseeker_expected_ctc : DataTypes.INTEGER,
         jobseeker_marital_status : DataTypes.INTEGER,
         jobseeker_resume : DataTypes.STRING,
         jobseeker_remarks : DataTypes.TEXT,
         jobseeker_preferred_job_location : {
-            type : DataTypes.INTEGER
+            type : DataTypes.STRING
         },
-        jobseeker_subject_id : {
-            type : DataTypes.INTEGER
-        },
+
         jobseeker_city : {
             type : DataTypes.STRING,
             allowNull : false

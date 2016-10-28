@@ -4,7 +4,7 @@
 var _ = require('underscore')
 var Subject = require('../controllers/subject')
 
-exports.addSubject = function(req, res) {
+    exports.addSubject = function(req, res) {
     var params = JSON.parse(req.body.details);
     console.log("add Subject params "+JSON.stringify(params));
     Subject.add(params, function(s,c,m,d) {
