@@ -17,9 +17,11 @@
              //  var schema = require(schema_dir + module_name);
              try {
                  var model = connection['import']('' + schema_dir + module_name);
+
                  model.sync().then(function() {
                      console.log("table created: " + module_name);
                  });
+
              } catch (ex) {
                  console.log("error with module_name: " + module_name, ex);
              }

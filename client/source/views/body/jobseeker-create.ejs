@@ -145,12 +145,12 @@
                 <div class="input-group-wrapper col-sm-10">
                     <div class="input-group full-width">
                         <!-- Single button -->
-                        <select name="j_interest" class="form-control">
-                            <option value="default">Choose the field you are interested to teach</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
+                        <select ng-model="jobseeker.subject" name="j_interest" class="form-control">
+                           <!-- <option value="default">Choose the field you are interested to teach</option>-->
+                            <option ng-repeat="subject in subjectsList" value="{{subject.subject_id}}">
+                                {{subject.subject_name}}
+                            </option>
                         </select>
-                        <!--<select name="j_state" class="form-control" ng-model="placement.selected" ng-options="o as o for o in placement.options"></select>-->
                     </div>
                 </div>
             </div>
@@ -162,10 +162,10 @@
                 <div class="input-group-wrapper col-sm-10">
                     <div class="input-group full-width">
                         <!-- Single button -->
-                        <select name="j_city" class="form-control">
-                            <option value="default">Choose...</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
+                        <select ng-model="jobseeker.city" name="j_city" class="form-control">
+                            <option ng-repeat="city in citiesList" value="{{city.city_id}}">
+                                {{city.city_name}}
+                            </option>
                         </select>
                         <!--<select name="j_city" class="form-control" ng-model="placement.selected" ng-options="o as o for o in placement.options"></select>-->
                     </div>

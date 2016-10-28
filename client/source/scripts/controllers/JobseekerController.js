@@ -1,8 +1,37 @@
 
 
 angular.module('naukriApp')
-.controller('JobseekerController', function($http, $scope) {
+.controller('JobseekerController', function($http, $scope, GetSubjectsList, GetCities) {
 
+
+    $scope.jobseeker = {
+        subject: "",
+        city: ""
+    }
+
+
+
+
+    /*---------------------SERVICE TO GET SUBJECTS DATA------------------------*/
+
+    GetSubjectsList.getSubjects().success(function(response, status, headers, config) {
+        $scope.subjectsList = response.data;
+    })
+
+    /*-------------------------------------------------------------------------*/
+
+
+
+
+
+    /*---------------------SERVICE TO GET CITIES DATA------------------------*/
+
+    GetCities.getCities().success(function(response) {
+        console.log(response.cities);
+        $scope.citiesList = response.cities;
+    })
+
+    /*------------------------------------------------------------------------*/
 
 
 
@@ -84,6 +113,7 @@ angular.module('naukriApp')
 
 
 
+   /*-------------------- DATE --------------------------*/
 
 
     $scope.today = function() {
@@ -180,6 +210,7 @@ angular.module('naukriApp')
         return '';
     }
 
+    /*-------------------- DATE --------------------------*/
 
 
 })
