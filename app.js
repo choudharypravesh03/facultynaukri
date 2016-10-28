@@ -1,4 +1,5 @@
 var express = require('express');
+var partials = require('express-partials');
 var app = express();
 var path = require('path');
 var morgan = require('morgan');
@@ -9,6 +10,7 @@ var bodyParser = require('body-parser');
 var routes = require('./server/routes/routes.js');
 
 app.set("view engine", "ejs")
+app.use(partials());
 app.set('views', __dirname + appPath);
 console.log(__dirname);
 app.use(express.static(path.join(__dirname, appPath)));

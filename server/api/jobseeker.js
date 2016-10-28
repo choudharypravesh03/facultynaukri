@@ -30,7 +30,7 @@ exports.getJobSeeker = function(req, res) {
     })
 }
 
-exports.updateJobSeeker(function (req, res) {
+exports.updateJobSeeker = function (req, res) {
     var jobseeker_email =  req.body.jobseeker_email;
 
     var params = {
@@ -61,4 +61,4 @@ exports.updateJobSeeker(function (req, res) {
         }
     })
 
-})
+}
