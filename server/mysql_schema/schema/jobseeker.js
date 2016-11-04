@@ -51,11 +51,9 @@ module.exports = function(sequelize, DataTypes) {
         jobseeker_resume : DataTypes.STRING,
         jobseeker_remarks : DataTypes.TEXT,
         jobseeker_preferred_job_location : {
-            type : DataTypes.INTEGER
+            type : DataTypes.STRING
         },
-        jobseeker_subject_id : {
-            type : DataTypes.INTEGER
-        },
+
         jobseeker_city : {
             type : DataTypes.STRING,
             allowNull : false

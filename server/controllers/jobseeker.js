@@ -22,7 +22,7 @@ exports.get = function(params, callback) {
     console.log("PARAMS FOR GET JOBSEEKER "+JSON.stringify(params));
 
     mysql.jobseeker.findAll({
-        order: '"updatedAt" DESC'
+        where : params
     }).then(function(jobseekers) {
         console.log("SUCCESS RESPONSE "+JSON.stringify(jobseekers));
         callback(true, 200, "Success", jobseekers);

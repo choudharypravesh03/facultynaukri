@@ -19,7 +19,7 @@ exports.addJobSeeker = function(req, res) {
 };
 
 exports.getJobSeeker = function(req, res) {
-    var params = req.query;
+    var params = req.body.query;
     JobSeeker.get(params, function(s,c,m,d) {
         console.log("RETURNED DATA ",s,c,m,d);
         res.send(JSON.stringify({
