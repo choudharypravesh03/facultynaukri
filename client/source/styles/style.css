@@ -12,6 +12,10 @@
     height: 40px;
 }
 
+.form-group {
+    clear:both;
+}
+
 .calender-button button {
     height: 40px;
 }

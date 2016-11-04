@@ -4,8 +4,9 @@ var Experiences = require('../controllers/experience')
 
 
 exports.addJobSeeker = function(req, res) {
-    var params = JSON.parse(req.body.details);
+    var params = JSON.parse(req.body.jobseeker);
     console.log("addJobSeeker params "+JSON.stringify(params));
+    console.log(params.jobseeker_email)
     JobSeeker.add(params, function(s,c,m,d) {
         console.log("RETURNED DATA ",s,c,m,d);
         res.send(JSON.stringify({
@@ -15,7 +16,7 @@ exports.addJobSeeker = function(req, res) {
             data : d
         }))
     })
-}
+};
 
 exports.getJobSeeker = function(req, res) {
     var params = req.query;

@@ -1,14 +1,30 @@
 
 
 angular.module('naukriApp')
-.controller('JobseekerController', function($http, $scope, GetSubjectsList, GetCities) {
+.controller('JobseekerController', function($http, $scope, GetSubjectsList, GetCities, AddJobSeeker) {
 
 
     $scope.jobseeker = {
-        subject: "",
-        city: ""
+        jobseeker_firstname: "",
+        jobseeker_lastname: "",
+        jobseeker_email: "",
+        jobseeker_password: "",
+        jobseeker_password_confirm: "",
+        jobseeker_contact: "",
+        jobseeker_dob: "",
+        jobseeker_gender: "",
+        jobseeker_interested_in: "",
+        jobseeker_city: ""
     }
 
+
+    $scope.interestedin = [
+        {value: 1, name: "Teaching"},
+        {value: 2, name: "Management"},
+        {value: 3, name: "Marketing"},
+        {value: 4, name: "Admin"},
+        {value: 5, name: "Others"}
+    ]
 
 
 
@@ -40,15 +56,14 @@ angular.module('naukriApp')
 
     /*-----------------VALIDATIONS-----------------------------*/
 
-    $.validator.addMethod("valueNotEquals", function(value, element, arg){
-        return arg != value;
+    $.validator.addMethod("valueNotEquals", function(value, element, arg) {
+        return value !== null;
     }, "Value must not equal arg.");
 
     $('form').validate({
         rules: {
             j_firstname: {
                 minlength: 3,
-                maxlength: 15,
                 required: true
             },
             j_lastname: {
@@ -69,18 +84,52 @@ angular.module('naukriApp')
                 required: true
             },
             j_dob: {
-                valueNotEquals: "default"
+                date: true,
+                required: true
             },
             j_gender: {
                 required: true
             },
-            j_interest: { valueNotEquals: "default" },
-            j_city: { valueNotEquals: "default" }
+            j_interest: { valueNotEquals: "" },
+            j_subject_name: {
+                required: {
+                    depends: function(element) {
+                        return $scope.jobseeker.jobseeker_subject_id !== 100;
+                    }
+                }
+            },
+            j_city: { valueNotEquals: "" }
         },
         messages: {
-            j_interest: { valueNotEquals: "Please select an item!" },
-            j_city: { valueNotEquals: "Please select an item!" },
-            j_dob: {  required: "This field is empty"  }
+            j_firstname: {
+              required: "First Name is required",
+              minlength: "First name cannot be less then 3 letters"
+            },
+            j_lastname: {
+                required: "Last Name is required",
+                minlength: "Last name cannot be less then 3 letters"
+            },
+            j_email: {
+                required: "Email address is required to have furthur communication",
+                email: "Please provide a valid email address"
+            },
+            j_password: {
+                minlength: "Password must be minimum 6 characters long",
+                required: "Provide a password for generating login credentials"
+            },
+            j_contact: {
+                number: "Provide a valid number to contact you",
+                required: "Provide with contact number for furthur communication"
+            },
+            j_dob: {
+                date: "Please provide a valid Date of Birth",
+                required: "Please provide your Date of Birth"
+            },
+            j_gender: {
+                required: "Please choose an appropriate option"
+            },
+            j_interest: { valueNotEquals: "Please select a Subject" },
+            j_city: { valueNotEquals: "Please select your preferred city" }
         },
         highlight: function(element) {
             $(element).closest('.form-group').addClass('has-error');
@@ -96,11 +145,46 @@ angular.module('naukriApp')
             } else {
                 error.insertAfter(element);
             }
+        },
+        submitHandler: function(form) {
+
+            $('#jobseeker-submit').text("Please Wait...").prop('disabled', true);
+
+            var dob = new Date($scope.jobseeker.jobseeker_dob);
+            dob = dob.getTime();
+
+            var data = {
+                jobseeker_name: $scope.jobseeker.jobseeker_firstname.toLowerCase().trim()+ " "+$scope.jobseeker.jobseeker_lastname.toLowerCase().trim(),
+                jobseeker_email: $scope.jobseeker.jobseeker_email.toLowerCase().trim(),
+                jobseeker_password: $scope.jobseeker.jobseeker_password,
+                jobseeker_contact: $scope.jobseeker.jobseeker_contact,
+                jobseeker_dob: dob,
+                jobseeker_gender: $scope.jobseeker.jobseeker_gender,
+                jobseeker_interested_in: $scope.jobseeker.jobseeker_interested_in,
+                jobseeker_city: $scope.jobseeker.jobseeker_city
+            }
+
+            console.log(data);
+
+            AddJobSeeker.addJobSeeker(JSON.stringify(data)).success(function(response) {
+                $('#jobseeker-submit').text("Register Now").prop('disabled', false);
+                if(response.status) {
+                    $("#jobseeker-success-modal").modal()
+                }
+                console.log(response)
+            })
+            //form.submit();
         }
     });
 
+    /*-------------------------------------------------------------------------------------*/
 
 
+
+    $scope.goToLogin = function() {
+        $('#jobseeker-success-modal').modal('hide');
+        window.location.href = '/login';
+    }
 
 
 

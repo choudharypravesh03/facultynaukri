@@ -46,72 +46,91 @@
             <uib-tab class="disabled" index="2" heading="Job Specifics" disable="true">Long Labeled Justified content</uib-tab>
         </uib-tabset><br><br>
 
-        <form id="jobseeker-form" name="jobSeekerFrom">
+        <form novalidate id="jobseeker-form" name="jobSeekerFrom">
             <div class="form-group">
-                <div class="label-wrapper col-sm-2">
+                <div class="label-wrapper col-sm-3">
                     <label class="control-label" for="j_firstname">First Name</label>
                 </div>
-                <div class="input-group-wrapper col-sm-10">
+                <div class="input-group-wrapper col-sm-9">
                     <div class="input-group full-width">
-                        <input class="form-control" placeholder="First Name" name="j_firstname" type="text" />
+                        <input ng-model="jobseeker.jobseeker_firstname" class="form-control" placeholder="First Name" name="j_firstname" type="text" />
                     </div>
                 </div>
             </div>
 
 
             <div class="form-group">
-                <div class="label-wrapper col-sm-2">
+                <div class="label-wrapper col-sm-3">
                     <label class="control-label" for="j_lastname">Last Name</label>
                 </div>
-                <div class="input-group-wrapper col-sm-10">
+                <div class="input-group-wrapper col-sm-9">
                     <div class="input-group full-width">
-                        <input class="form-control" placeholder="Last Name" name="j_lastname" type="text" />
+                        <input ng-model="jobseeker.jobseeker_lastname" class="form-control"
+                               placeholder="Last Name" name="j_lastname" type="text" />
                     </div>
                 </div>
             </div>
 
 
             <div class="form-group">
-                <div class="label-wrapper col-sm-2">
+                <div class="label-wrapper col-sm-3">
                     <label class="control-label" for="j_email">Email</label>
                 </div>
-                <div class="input-group-wrapper col-sm-10">
+                <div class="input-group-wrapper col-sm-9">
                     <div class="input-group full-width">
-                        <input class="form-control" placeholder="Email Address" name="j_email" type="email" />
+                        <input ng-model="jobseeker.jobseeker_email" class="form-control"
+                               placeholder="Register with your active email id"
+                               name="j_email" type="email" />
                     </div>
                 </div>
             </div>
 
             <div class="form-group">
-                <div class="label-wrapper col-sm-2">
+                <div class="label-wrapper col-sm-3">
                     <label class="control-label" for="j_password">Password</label>
                 </div>
-                <div class="input-group-wrapper col-sm-10">
+                <div class="input-group-wrapper col-sm-9">
                     <div class="input-group full-width">
-                        <input class="form-control" placeholder="Password" name="j_password" type="password" />
+                        <input ng-model="jobseeker.jobseeker_password" class="form-control"
+                               placeholder="Set this password to generate login credentials"
+                               name="j_password" type="password" />
                     </div>
                 </div>
             </div>
 
             <div class="form-group">
-                <div class="label-wrapper col-sm-2">
+                <div class="label-wrapper col-sm-3">
+                    <label class="control-label" for="j_password_confirm">Confirm Password</label>
+                </div>
+                <div class="input-group-wrapper col-sm-9">
+                    <div class="input-group full-width">
+                        <input ng-model="jobseeker.jobseeker_password_confirm" class="form-control"
+                               placeholder="Re-enter Password"
+                               name="j_password_confirm" type="password" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="label-wrapper col-sm-3">
                     <label class="control-label" for="j_contact">Contact</label>
                 </div>
-                <div class="input-group-wrapper col-sm-10">
+                <div class="input-group-wrapper col-sm-9">
                     <div class="input-group full-width">
-                        <input class="form-control" placeholder="Contact Number" name="j_contact" type="text" />
+                        <input ng-model="jobseeker.jobseeker_contact" class="form-control"
+                               placeholder="Where we can contact you" name="j_contact" type="text" />
                     </div>
                 </div>
             </div>
 
             <div class="form-group">
-                <div class="label-wrapper col-sm-2">
+                <div class="label-wrapper col-sm-3">
                     <label class="control-label" for="j_dob">DOB</label>
                 </div>
-                <div class="input-group-wrapper col-sm-10">
+                <div class="input-group-wrapper col-sm-9">
                     <div class="input-group">
-                        <input name="j_dob" type="text" class="form-control" uib-datepicker-popup
-                               ng-model="dt" is-open="popup2.opened"
+                        <input name="j_dob" type="text" placeholder="Select your Date of Birth" class="form-control" uib-datepicker-popup
+                               ng-model="jobseeker.jobseeker_dob" is-open="popup2.opened"
                                datepicker-options="dateOptions" required="true" close-text="Close" />
                       <span class="input-group-btn calender-button">
                         <button type="button" class="btn btn-default" ng-click="open2()"><i class="glyphicon glyphicon-calendar"></i></button>
@@ -121,17 +140,17 @@
             </div>
 
             <div class="form-group">
-                <div class="label-wrapper col-sm-2">
+                <div class="label-wrapper col-sm-3">
                     <label class="control-label" for="j_gender">Gender</label>
                 </div>
-                <div class="input-group-wrapper col-sm-10">
-                    <div class="input-group col-sm-10">
+                <div class="input-group-wrapper col-sm-9">
+                    <div class="input-group">
                         <div class="btn-group">
                             <label class="radio-inline">
-                                <input type="radio" name="j_gender">Male
+                                <input ng-model="jobseeker.jobseeker_gender" value="1" type="radio" name="j_gender">Male
                             </label>
                             <label class="radio-inline">
-                                <input type="radio" name="j_gender">Female
+                                <input ng-model="jobseeker.jobseeker_gender" value="2" type="radio" name="j_gender">Female
                             </label>
                         </div>
                     </div>
@@ -139,16 +158,16 @@
             </div>
 
             <div class="form-group">
-                <div class="label-wrapper col-sm-2">
+                <div class="label-wrapper col-sm-3">
                     <label class="control-label" for="j_interest">Interested In</label>
                 </div>
-                <div class="input-group-wrapper col-sm-10">
+                <div class="input-group-wrapper col-sm-9">
                     <div class="input-group full-width">
                         <!-- Single button -->
-                        <select ng-model="jobseeker.subject" name="j_interest" class="form-control">
-                           <!-- <option value="default">Choose the field you are interested to teach</option>-->
-                            <option ng-repeat="subject in subjectsList" value="{{subject.subject_id}}">
-                                {{subject.subject_name}}
+                        <select ng-model="jobseeker.jobseeker_interested_in" name="j_interest" class="form-control">
+                            <option disabled selected value> -- Choose the field you are interested to teach in -- </option>
+                            <option ng-repeat="interest in interestedin" value="{{interest.value}}">
+                                {{interest.name}}
                             </option>
                         </select>
                     </div>
@@ -156,13 +175,14 @@
             </div>
 
             <div class="form-group">
-                <div class="label-wrapper col-sm-2">
+                <div class="label-wrapper col-sm-3">
                     <label class="control-label" for="j_city">City</label>
                 </div>
-                <div class="input-group-wrapper col-sm-10">
+                <div class="input-group-wrapper col-sm-9">
                     <div class="input-group full-width">
                         <!-- Single button -->
-                        <select ng-model="jobseeker.city" name="j_city" class="form-control">
+                        <select ng-model="jobseeker.jobseeker_city" name="j_city" class="form-control">
+                            <option disabled selected value> -- Choose the city you would like to work in -- </option>
                             <option ng-repeat="city in citiesList" value="{{city.city_id}}">
                                 {{city.city_name}}
                             </option>
@@ -172,9 +192,33 @@
                 </div>
             </div><br>
             <div class="submit-container">
-                <button type="submit" class="btn btn-width-70 btn-custom-settings">Register Now</button><br><br>
+                <button id="jobseeker-submit" type="submit" class="btn btn-width-70 btn-custom-settings">Register Now</button><br><br>
             </div>
         </form>
     </div><br><br><br>
 
+</div>
+
+
+<!-- Modal -->
+<div id="jobseeker-success-modal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title title">Thanks for registering with us!</h4>
+            </div>
+            <div class="modal-body">
+                <p class="small-title">You have successfully created an account with us. Please login and complete
+                    your profile to find a suitable match.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" ng-click="goToLogin()" class="btn btn-primary">Go to login</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
 </div>

@@ -41,11 +41,11 @@ angular.module('naukriApp')
 
     .factory('AddJobSeeker', function($http) {
         return {
-            getSubjects: function(data) {
+            addJobSeeker: function(data) {
                 return $http({
-                    method: 'GET',
+                    method: 'POST',
                     url: '/addJobSeeker',
-                    data: '',
+                    data: 'jobseeker='+data,
                     headers: {
                         'Content-Type': 'application/x-www-form-urlencoded'
                     }

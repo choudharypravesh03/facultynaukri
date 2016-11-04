@@ -17,16 +17,16 @@ module.exports = function(sequelize, DataTypes) {
             unique : true
         },
         jobseeker_contact : {
-            type : DataTypes.BIGINT,
+            type : DataTypes.STRING,
             allowNull : false,
             unique : true
         },
         jobseeker_dob : {
-            type : DataTypes.BIGINT,
+            type : DataTypes.STRING,
             allowNull : false
         },
         jobseeker_gender : {
-            type : DataTypes.STRING,
+            type : DataTypes.INTEGER,
             allowNull : false
         },
         jobseeker_password : {
@@ -40,7 +40,10 @@ module.exports = function(sequelize, DataTypes) {
         jobseeker_is_experienced : DataTypes.INTEGER,
         jobseeker_subject_name : DataTypes.STRING,
         jobseeker_level : DataTypes.STRING,
-        jobseeker_interested_in : DataTypes.STRING,
+        jobseeker_interested_in : {
+            type : DataTypes.INTEGER,
+            allowNull : false
+        },
         jobseeker_standard_name : DataTypes.STRING,
         jobseeker_current_ctc : DataTypes.INTEGER,
         jobseeker_expected_ctc : DataTypes.INTEGER,
