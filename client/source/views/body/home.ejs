@@ -109,21 +109,9 @@
                         </tr>
                         </thead>
                         <tbody>
-                        <tr>
-                            <td>Chemistry</td>
-                            <td>30</td>
-                        </tr>
-                        <tr>
-                            <td>Chemistry</td>
-                            <td>30</td>
-                        </tr>
-                        <tr>
-                            <td>Chemistry</td>
-                            <td>30</td>
-                        </tr>
-                        <tr>
-                            <td>Chemistry</td>
-                            <td>30</td>
+                        <tr ng-repeat="sub in subjectsList" ng-if="sub.subject_type == 1">
+                            <td>{{sub.subject_name}}</td>
+                            <td>{{sub.subject_vacancies}}</td>
                         </tr>
                         </tbody>
                     </table>
@@ -142,25 +130,9 @@
                         </tr>
                         </thead>
                         <tbody>
-                        <tr>
-                            <td>English</td>
-                            <td>20</td>
-                        </tr>
-                        <tr>
-                            <td>English</td>
-                            <td>20</td>
-                        </tr>
-                        <tr>
-                            <td>English</td>
-                            <td>20</td>
-                        </tr>
-                        <tr>
-                            <td>English</td>
-                            <td>20</td>
-                        </tr>
-                        <tr>
-                            <td>English</td>
-                            <td>20</td>
+                        <tr ng-repeat="sub in subjectsList" ng-if="sub.subject_type == 2">
+                            <td>{{sub.subject_name}}</td>
+                            <td>{{sub.subject_vacancies}}</td>
                         </tr>
                         </tbody>
                     </table>

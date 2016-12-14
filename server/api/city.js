@@ -4,7 +4,7 @@
 var _ = require('underscore')
 var City = require('../controllers/city')
 
-exports.getCity = function(req, res) {
+exports.getCities = function(req, res) {
     var params = req.query;
     City.get(params, function(s,c,m,d) {
         console.log("RETURNED DATA ",s,c,m,d);
