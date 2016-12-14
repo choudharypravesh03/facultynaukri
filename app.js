@@ -6,11 +6,14 @@ var morgan = require('morgan');
 var appPath = "/client/source/";
 var ejs = require('ejs')
 var bodyParser = require('body-parser');
+var flash    = require('connect-flash');
+var cookieParser = require('cookie-parser');
 
 var routes = require('./server/routes/routes.js');
 
 app.set("view engine", "ejs")
 app.use(partials());
+app.use(cookieParser());
 app.set('views', __dirname + appPath);
 console.log(__dirname);
 app.use(express.static(path.join(__dirname, appPath)));
@@ -22,7 +25,6 @@ app.use(bodyParser.urlencoded({
 }));
 
 app.use('/', routes);
-
 
 /*app.get('/', function(req, res) {
     res.render('index.ejs');

@@ -12,6 +12,24 @@
     height: 40px;
 }
 
+.remove {
+    display: none;
+}
+
+multiselect .btn-group {
+    display: block !important;
+}
+
+multiselect button {
+    display: block !important;
+    width: 100%;
+}
+
+multiselect button div {
+    max-width: 80px;
+    text-align: left;
+}
+
 .form-group {
     clear:both;
 }
@@ -20,7 +38,7 @@
     height: 40px;
 }
 
-.submit-container {
+.next-container {
     margin: 0;
     text-align: center;
 }
@@ -64,6 +82,10 @@
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
+.content-padding-top {
+    padding-top: 10%;
+}
+
 
 
 /*
@@ -80,7 +102,21 @@ HOME PAGE*/
 }
 
 
+.logged-in-links .div-width {
+    width: 100px;
+}
+
+
 .aboutus-back {
     background-image: url('../images/aboutus-back.png');
     background-attachment: fixed;
+}
+
+
+/*
+LOGIN PAGE*/
+
+
+#login-container .form-group {
+    height: inherit !important;
 }

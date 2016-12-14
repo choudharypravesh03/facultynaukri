@@ -251,6 +251,8 @@ form {
     width: 100% !important;
 }
 
+
+
 /*FORM CHANGES*/
 
 form input {
@@ -319,7 +321,18 @@ form button, form .btn {
 }
 
 
+.help-block {
+    text-align: left;
+}
 
+
+#upload-resume {
+    display: none;
+}
+
+.padding-small-vertical {
+    padding: 10px 0px;
+}
 
 
 /*PADDINGS*/
@@ -338,6 +351,13 @@ form button, form .btn {
     font-family: Bold;
 }
 
+.tab-has-error {
+    border: 1px solid red;
+}
+
+.tab-has-error .nav-link {
+    color: red;
+}
 
 
 /*SEARCH BOX*/

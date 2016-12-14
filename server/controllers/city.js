@@ -11,8 +11,7 @@ exports.get = function(params, callback) {
 
     mysql.city.findAll({
         where : params,
-        attributes : ['city_id', 'city_name'],
-        order: 'city_state_name ASC'
+        attributes : ['city_id', 'city_name', 'state_id']
     }).then(function(city) {
         console.log("SUCCESS RESPONSE "+JSON.stringify(city));
         callback(true, 200, "Success", city);

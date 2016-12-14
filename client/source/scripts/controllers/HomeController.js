@@ -1,7 +1,7 @@
 angular.module('naukriApp')
-    .controller('HomeController', function($http, $scope) {
+    .controller('HomeController', function($http, $scope, $rootScope) {
 
-
+        $rootScope.init();
         var _selected;
 
         $scope.selected = undefined;

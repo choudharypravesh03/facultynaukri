@@ -2,14 +2,533 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab87c05e-6981-4413-9f73-808a2edb45a2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-debug.log" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/fonts/font-awesome/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/client/source/fonts/font-awesome/fonts/FontAwesome.otf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/fonts/font-awesome/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/client/source/fonts/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/fonts/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/client/source/fonts/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/fonts/font-awesome/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/client/source/fonts/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/fonts/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/client/source/fonts/font-awesome/fonts/fontawesome-webfont.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/fonts/roboto/Roboto-Black.ttf" afterPath="$PROJECT_DIR$/client/source/fonts/roboto/Roboto-Black.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/fonts/roboto/Roboto-BlackItalic.ttf" afterPath="$PROJECT_DIR$/client/source/fonts/roboto/Roboto-BlackItalic.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/fonts/roboto/Roboto-Bold.ttf" afterPath="$PROJECT_DIR$/client/source/fonts/roboto/Roboto-Bold.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/fonts/roboto/Roboto-BoldItalic.ttf" afterPath="$PROJECT_DIR$/client/source/fonts/roboto/Roboto-BoldItalic.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/fonts/roboto/Roboto-Italic.ttf" afterPath="$PROJECT_DIR$/client/source/fonts/roboto/Roboto-Italic.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/fonts/roboto/Roboto-Light.ttf" afterPath="$PROJECT_DIR$/client/source/fonts/roboto/Roboto-Light.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/fonts/roboto/Roboto-LightItalic.ttf" afterPath="$PROJECT_DIR$/client/source/fonts/roboto/Roboto-LightItalic.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/fonts/roboto/Roboto-Medium.ttf" afterPath="$PROJECT_DIR$/client/source/fonts/roboto/Roboto-Medium.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/fonts/roboto/Roboto-MediumItalic.ttf" afterPath="$PROJECT_DIR$/client/source/fonts/roboto/Roboto-MediumItalic.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/fonts/roboto/Roboto-Regular.ttf" afterPath="$PROJECT_DIR$/client/source/fonts/roboto/Roboto-Regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/fonts/roboto/Roboto-Thin.ttf" afterPath="$PROJECT_DIR$/client/source/fonts/roboto/Roboto-Thin.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/fonts/roboto/Roboto-ThinItalic.ttf" afterPath="$PROJECT_DIR$/client/source/fonts/roboto/Roboto-ThinItalic.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/images/aboutus-back.png" afterPath="$PROJECT_DIR$/client/source/images/aboutus-back.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/images/layout/bg.png" afterPath="$PROJECT_DIR$/client/source/images/layout/bg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/images/layout/header.png" afterPath="$PROJECT_DIR$/client/source/images/layout/header.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/images/layout/logo.png" afterPath="$PROJECT_DIR$/client/source/images/layout/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/images/main-header.jpg" afterPath="$PROJECT_DIR$/client/source/images/main-header.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular/angular.min.js.gzip" afterPath="$PROJECT_DIR$/client/source/vendor/angular/angular.min.js.gzip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/mdi/fonts/materialdesignicons-webfont.eot" afterPath="$PROJECT_DIR$/client/source/vendor/mdi/fonts/materialdesignicons-webfont.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/mdi/fonts/materialdesignicons-webfont.ttf" afterPath="$PROJECT_DIR$/client/source/vendor/mdi/fonts/materialdesignicons-webfont.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/mdi/fonts/materialdesignicons-webfont.woff" afterPath="$PROJECT_DIR$/client/source/vendor/mdi/fonts/materialdesignicons-webfont.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/mdi/fonts/materialdesignicons-webfont.woff2" afterPath="$PROJECT_DIR$/client/source/vendor/mdi/fonts/materialdesignicons-webfont.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/.gitkeep" afterPath="$PROJECT_DIR$/server/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.bowerrc" afterPath="$PROJECT_DIR$/.bowerrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.editorconfig" afterPath="$PROJECT_DIR$/.editorconfig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/facultynaukri.iml" afterPath="$PROJECT_DIR$/.idea/facultynaukri.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.jscsrc" afterPath="$PROJECT_DIR$/.jscsrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.jshintrc" afterPath="$PROJECT_DIR$/.jshintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.npmignore" afterPath="$PROJECT_DIR$/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.yo-rc.json" afterPath="$PROJECT_DIR$/.yo-rc.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/fonts/font-awesome/css/font-awesome.css" afterPath="$PROJECT_DIR$/client/source/fonts/font-awesome/css/font-awesome.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/fonts/font-awesome/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/client/source/fonts/font-awesome/css/font-awesome.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/fonts/font-awesome/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/client/source/fonts/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/index.ejs" afterPath="$PROJECT_DIR$/client/source/index.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/index.jade" afterPath="$PROJECT_DIR$/client/source/index.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/jsons/cities.json" afterPath="$PROJECT_DIR$/client/source/jsons/cities.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/plugins/jquery.validate.min.js" afterPath="$PROJECT_DIR$/client/source/plugins/jquery.validate.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/plugins/ui-bootstrap-tpls-2.2.0.min.js" afterPath="$PROJECT_DIR$/client/source/plugins/ui-bootstrap-tpls-2.2.0.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/scripts/app.js" afterPath="$PROJECT_DIR$/client/source/scripts/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/scripts/controllers/HomeController.js" afterPath="$PROJECT_DIR$/client/source/scripts/controllers/HomeController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/scripts/controllers/JobseekerController.js" afterPath="$PROJECT_DIR$/client/source/scripts/controllers/JobseekerController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/scripts/controllers/LoginController.js" afterPath="$PROJECT_DIR$/client/source/scripts/controllers/LoginController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/scripts/controllers/RecruiterController.js" afterPath="$PROJECT_DIR$/client/source/scripts/controllers/RecruiterController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/scripts/services/services.js" afterPath="$PROJECT_DIR$/client/source/scripts/services/services.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/styles/components.css" afterPath="$PROJECT_DIR$/client/source/styles/components.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/styles/style.css" afterPath="$PROJECT_DIR$/client/source/styles/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-animate/.bower.json" afterPath="$PROJECT_DIR$/client/source/vendor/angular-animate/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-animate/README.md" afterPath="$PROJECT_DIR$/client/source/vendor/angular-animate/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-animate/angular-animate.js" afterPath="$PROJECT_DIR$/client/source/vendor/angular-animate/angular-animate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-animate/angular-animate.min.js" afterPath="$PROJECT_DIR$/client/source/vendor/angular-animate/angular-animate.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-animate/angular-animate.min.js.map" afterPath="$PROJECT_DIR$/client/source/vendor/angular-animate/angular-animate.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-animate/bower.json" afterPath="$PROJECT_DIR$/client/source/vendor/angular-animate/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-animate/index.js" afterPath="$PROJECT_DIR$/client/source/vendor/angular-animate/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-animate/package.json" afterPath="$PROJECT_DIR$/client/source/vendor/angular-animate/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-loading-bar/.bower.json" afterPath="$PROJECT_DIR$/client/source/vendor/angular-loading-bar/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-loading-bar/CHANGELOG.md" afterPath="$PROJECT_DIR$/client/source/vendor/angular-loading-bar/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-loading-bar/Gruntfile.js" afterPath="$PROJECT_DIR$/client/source/vendor/angular-loading-bar/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-loading-bar/LICENSE" afterPath="$PROJECT_DIR$/client/source/vendor/angular-loading-bar/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-loading-bar/README.md" afterPath="$PROJECT_DIR$/client/source/vendor/angular-loading-bar/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-loading-bar/bower.json" afterPath="$PROJECT_DIR$/client/source/vendor/angular-loading-bar/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-loading-bar/build/loading-bar.css" afterPath="$PROJECT_DIR$/client/source/vendor/angular-loading-bar/build/loading-bar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-loading-bar/build/loading-bar.js" afterPath="$PROJECT_DIR$/client/source/vendor/angular-loading-bar/build/loading-bar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-loading-bar/build/loading-bar.min.css" afterPath="$PROJECT_DIR$/client/source/vendor/angular-loading-bar/build/loading-bar.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-loading-bar/build/loading-bar.min.js" afterPath="$PROJECT_DIR$/client/source/vendor/angular-loading-bar/build/loading-bar.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-loading-bar/package.json" afterPath="$PROJECT_DIR$/client/source/vendor/angular-loading-bar/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-loading-bar/src/loading-bar.css" afterPath="$PROJECT_DIR$/client/source/vendor/angular-loading-bar/src/loading-bar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-loading-bar/src/loading-bar.js" afterPath="$PROJECT_DIR$/client/source/vendor/angular-loading-bar/src/loading-bar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-messages/.bower.json" afterPath="$PROJECT_DIR$/client/source/vendor/angular-messages/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-messages/README.md" afterPath="$PROJECT_DIR$/client/source/vendor/angular-messages/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-messages/angular-messages.js" afterPath="$PROJECT_DIR$/client/source/vendor/angular-messages/angular-messages.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-messages/angular-messages.min.js" afterPath="$PROJECT_DIR$/client/source/vendor/angular-messages/angular-messages.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-messages/angular-messages.min.js.map" afterPath="$PROJECT_DIR$/client/source/vendor/angular-messages/angular-messages.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-messages/bower.json" afterPath="$PROJECT_DIR$/client/source/vendor/angular-messages/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-messages/index.js" afterPath="$PROJECT_DIR$/client/source/vendor/angular-messages/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-messages/package.json" afterPath="$PROJECT_DIR$/client/source/vendor/angular-messages/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-mocks/.bower.json" afterPath="$PROJECT_DIR$/client/source/vendor/angular-mocks/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-mocks/README.md" afterPath="$PROJECT_DIR$/client/source/vendor/angular-mocks/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-mocks/angular-mocks.js" afterPath="$PROJECT_DIR$/client/source/vendor/angular-mocks/angular-mocks.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-mocks/bower.json" afterPath="$PROJECT_DIR$/client/source/vendor/angular-mocks/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-mocks/ngAnimateMock.js" afterPath="$PROJECT_DIR$/client/source/vendor/angular-mocks/ngAnimateMock.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-mocks/ngMock.js" afterPath="$PROJECT_DIR$/client/source/vendor/angular-mocks/ngMock.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-mocks/ngMockE2E.js" afterPath="$PROJECT_DIR$/client/source/vendor/angular-mocks/ngMockE2E.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-mocks/package.json" afterPath="$PROJECT_DIR$/client/source/vendor/angular-mocks/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-ui-router/.bower.json" afterPath="$PROJECT_DIR$/client/source/vendor/angular-ui-router/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-ui-router/CHANGELOG.md" afterPath="$PROJECT_DIR$/client/source/vendor/angular-ui-router/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-ui-router/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/client/source/vendor/angular-ui-router/CONTRIBUTING.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-ui-router/LICENSE" afterPath="$PROJECT_DIR$/client/source/vendor/angular-ui-router/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-ui-router/README.md" afterPath="$PROJECT_DIR$/client/source/vendor/angular-ui-router/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-ui-router/bower.json" afterPath="$PROJECT_DIR$/client/source/vendor/angular-ui-router/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-ui-router/release/angular-ui-router.js" afterPath="$PROJECT_DIR$/client/source/vendor/angular-ui-router/release/angular-ui-router.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-ui-router/release/angular-ui-router.min.js" afterPath="$PROJECT_DIR$/client/source/vendor/angular-ui-router/release/angular-ui-router.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-ui-router/src/common.js" afterPath="$PROJECT_DIR$/client/source/vendor/angular-ui-router/src/common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-ui-router/src/resolve.js" afterPath="$PROJECT_DIR$/client/source/vendor/angular-ui-router/src/resolve.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-ui-router/src/state.js" afterPath="$PROJECT_DIR$/client/source/vendor/angular-ui-router/src/state.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-ui-router/src/stateDirectives.js" afterPath="$PROJECT_DIR$/client/source/vendor/angular-ui-router/src/stateDirectives.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-ui-router/src/stateFilters.js" afterPath="$PROJECT_DIR$/client/source/vendor/angular-ui-router/src/stateFilters.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-ui-router/src/templateFactory.js" afterPath="$PROJECT_DIR$/client/source/vendor/angular-ui-router/src/templateFactory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-ui-router/src/urlMatcherFactory.js" afterPath="$PROJECT_DIR$/client/source/vendor/angular-ui-router/src/urlMatcherFactory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-ui-router/src/urlRouter.js" afterPath="$PROJECT_DIR$/client/source/vendor/angular-ui-router/src/urlRouter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-ui-router/src/view.js" afterPath="$PROJECT_DIR$/client/source/vendor/angular-ui-router/src/view.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-ui-router/src/viewDirective.js" afterPath="$PROJECT_DIR$/client/source/vendor/angular-ui-router/src/viewDirective.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular-ui-router/src/viewScroll.js" afterPath="$PROJECT_DIR$/client/source/vendor/angular-ui-router/src/viewScroll.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular/.bower.json" afterPath="$PROJECT_DIR$/client/source/vendor/angular/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular/README.md" afterPath="$PROJECT_DIR$/client/source/vendor/angular/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular/angular-csp.css" afterPath="$PROJECT_DIR$/client/source/vendor/angular/angular-csp.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular/angular.js" afterPath="$PROJECT_DIR$/client/source/vendor/angular/angular.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular/angular.min.js" afterPath="$PROJECT_DIR$/client/source/vendor/angular/angular.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular/angular.min.js.map" afterPath="$PROJECT_DIR$/client/source/vendor/angular/angular.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular/bower.json" afterPath="$PROJECT_DIR$/client/source/vendor/angular/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular/index.js" afterPath="$PROJECT_DIR$/client/source/vendor/angular/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/angular/package.json" afterPath="$PROJECT_DIR$/client/source/vendor/angular/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/.bower.json" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/Gruntfile.js" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/animate-config.json" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/animate-config.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/bower.json" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/package.json" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/_base.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/_base.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/attention_seekers/bounce.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/attention_seekers/bounce.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/attention_seekers/flash.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/attention_seekers/flash.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/attention_seekers/pulse.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/attention_seekers/pulse.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/attention_seekers/rubberBand.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/attention_seekers/rubberBand.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/attention_seekers/shake.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/attention_seekers/shake.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/attention_seekers/swing.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/attention_seekers/swing.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/attention_seekers/tada.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/attention_seekers/tada.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/attention_seekers/wobble.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/attention_seekers/wobble.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/bouncing_entrances/bounceIn.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/bouncing_entrances/bounceIn.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/bouncing_entrances/bounceInDown.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/bouncing_entrances/bounceInDown.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/bouncing_entrances/bounceInLeft.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/bouncing_entrances/bounceInLeft.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/bouncing_entrances/bounceInRight.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/bouncing_entrances/bounceInRight.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/bouncing_entrances/bounceInUp.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/bouncing_entrances/bounceInUp.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/bouncing_exits/bounceOut.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/bouncing_exits/bounceOut.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/bouncing_exits/bounceOutDown.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/bouncing_exits/bounceOutDown.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/bouncing_exits/bounceOutLeft.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/bouncing_exits/bounceOutLeft.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/bouncing_exits/bounceOutRight.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/bouncing_exits/bounceOutRight.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/bouncing_exits/bounceOutUp.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/bouncing_exits/bounceOutUp.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/fading_entrances/fadeIn.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/fading_entrances/fadeIn.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/fading_entrances/fadeInDown.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/fading_entrances/fadeInDown.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/fading_entrances/fadeInDownBig.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/fading_entrances/fadeInDownBig.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/fading_entrances/fadeInLeft.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/fading_entrances/fadeInLeft.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/fading_entrances/fadeInLeftBig.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/fading_entrances/fadeInLeftBig.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/fading_entrances/fadeInRight.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/fading_entrances/fadeInRight.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/fading_entrances/fadeInRightBig.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/fading_entrances/fadeInRightBig.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/fading_entrances/fadeInUp.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/fading_entrances/fadeInUp.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/fading_entrances/fadeInUpBig.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/fading_entrances/fadeInUpBig.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/fading_exits/fadeOut.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/fading_exits/fadeOut.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/fading_exits/fadeOutDown.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/fading_exits/fadeOutDown.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/fading_exits/fadeOutDownBig.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/fading_exits/fadeOutDownBig.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/fading_exits/fadeOutLeft.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/fading_exits/fadeOutLeft.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/fading_exits/fadeOutLeftBig.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/fading_exits/fadeOutLeftBig.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/fading_exits/fadeOutRight.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/fading_exits/fadeOutRight.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/fading_exits/fadeOutRightBig.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/fading_exits/fadeOutRightBig.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/fading_exits/fadeOutUp.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/fading_exits/fadeOutUp.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/fading_exits/fadeOutUpBig.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/fading_exits/fadeOutUpBig.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/flippers/flip.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/flippers/flip.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/flippers/flipInX.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/flippers/flipInX.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/flippers/flipInY.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/flippers/flipInY.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/flippers/flipOutX.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/flippers/flipOutX.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/flippers/flipOutY.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/flippers/flipOutY.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/lightspeed/lightSpeedIn.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/lightspeed/lightSpeedIn.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/lightspeed/lightSpeedOut.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/lightspeed/lightSpeedOut.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/rotating_entrances/rotateIn.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/rotating_entrances/rotateIn.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/rotating_entrances/rotateInDownLeft.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/rotating_entrances/rotateInDownLeft.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/rotating_entrances/rotateInDownRight.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/rotating_entrances/rotateInDownRight.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/rotating_entrances/rotateInUpLeft.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/rotating_entrances/rotateInUpLeft.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/rotating_entrances/rotateInUpRight.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/rotating_entrances/rotateInUpRight.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/rotating_exits/rotateOut.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/rotating_exits/rotateOut.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/rotating_exits/rotateOutDownLeft.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/rotating_exits/rotateOutDownLeft.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/rotating_exits/rotateOutDownRight.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/rotating_exits/rotateOutDownRight.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/rotating_exits/rotateOutUpLeft.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/rotating_exits/rotateOutUpLeft.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/rotating_exits/rotateOutUpRight.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/rotating_exits/rotateOutUpRight.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/sliding_entrances/slideInDown.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/sliding_entrances/slideInDown.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/sliding_entrances/slideInLeft.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/sliding_entrances/slideInLeft.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/sliding_entrances/slideInRight.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/sliding_entrances/slideInRight.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/sliding_entrances/slideInUp.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/sliding_entrances/slideInUp.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/sliding_exits/slideOutDown.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/sliding_exits/slideOutDown.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/sliding_exits/slideOutLeft.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/sliding_exits/slideOutLeft.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/sliding_exits/slideOutRight.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/sliding_exits/slideOutRight.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/sliding_exits/slideOutUp.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/sliding_exits/slideOutUp.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/specials/hinge.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/specials/hinge.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/specials/rollIn.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/specials/rollIn.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/specials/rollOut.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/specials/rollOut.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/zooming_entrances/zoomIn.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/zooming_entrances/zoomIn.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/zooming_entrances/zoomInDown.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/zooming_entrances/zoomInDown.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/zooming_entrances/zoomInLeft.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/zooming_entrances/zoomInLeft.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/zooming_entrances/zoomInRight.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/zooming_entrances/zoomInRight.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/zooming_entrances/zoomInUp.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/zooming_entrances/zoomInUp.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/zooming_exits/zoomOut.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/zooming_exits/zoomOut.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/zooming_exits/zoomOutDown.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/zooming_exits/zoomOutDown.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/zooming_exits/zoomOutLeft.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/zooming_exits/zoomOutLeft.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/zooming_exits/zoomOutRight.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/zooming_exits/zoomOutRight.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/animate.css/source/zooming_exits/zoomOutUp.css" afterPath="$PROJECT_DIR$/client/source/vendor/animate.css/source/zooming_exits/zoomOutUp.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bardjs/.bower.json" afterPath="$PROJECT_DIR$/client/source/vendor/bardjs/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bardjs/CHANGELOG.md" afterPath="$PROJECT_DIR$/client/source/vendor/bardjs/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bardjs/LICENSE" afterPath="$PROJECT_DIR$/client/source/vendor/bardjs/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bardjs/README.md" afterPath="$PROJECT_DIR$/client/source/vendor/bardjs/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bardjs/bower.json" afterPath="$PROJECT_DIR$/client/source/vendor/bardjs/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bardjs/dist/bard-ngRouteTester.js" afterPath="$PROJECT_DIR$/client/source/vendor/bardjs/dist/bard-ngRouteTester.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bardjs/dist/bard.js" afterPath="$PROJECT_DIR$/client/source/vendor/bardjs/dist/bard.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bardjs/package.json" afterPath="$PROJECT_DIR$/client/source/vendor/bardjs/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bardjs/snippets/brackets-testing-snippets.yaml" afterPath="$PROJECT_DIR$/client/source/vendor/bardjs/snippets/brackets-testing-snippets.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/.bower.json" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/CHANGELOG.md" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/Gemfile" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/Gemfile.lock" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/Gruntfile.js" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/ISSUE_TEMPLATE.md" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/ISSUE_TEMPLATE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/LICENSE" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/README.md" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/bower.json" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/dist/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/dist/css/bootstrap-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/dist/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/dist/css/bootstrap-theme.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/dist/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/dist/css/bootstrap-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/dist/css/bootstrap-theme.min.css.map" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/dist/css/bootstrap-theme.min.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/dist/css/bootstrap.css" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/dist/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/dist/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/dist/css/bootstrap.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/dist/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/dist/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/dist/css/bootstrap.min.css.map" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/dist/css/bootstrap.min.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/dist/js/bootstrap.js" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/dist/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/dist/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/dist/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/dist/js/npm.js" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/dist/js/npm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/grunt/.jshintrc" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/grunt/.jshintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/grunt/bs-commonjs-generator.js" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/grunt/bs-commonjs-generator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/grunt/bs-glyphicons-data-generator.js" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/grunt/bs-glyphicons-data-generator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/grunt/bs-lessdoc-parser.js" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/grunt/bs-lessdoc-parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/grunt/bs-raw-files-generator.js" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/grunt/bs-raw-files-generator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/grunt/configBridge.json" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/grunt/configBridge.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/grunt/npm-shrinkwrap.json" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/grunt/npm-shrinkwrap.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/grunt/sauce_browsers.yml" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/grunt/sauce_browsers.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/js/.jscsrc" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/js/.jscsrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/js/.jshintrc" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/js/.jshintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/js/affix.js" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/js/affix.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/js/alert.js" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/js/alert.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/js/button.js" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/js/button.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/js/carousel.js" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/js/carousel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/js/collapse.js" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/js/collapse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/js/dropdown.js" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/js/dropdown.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/js/modal.js" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/js/modal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/js/popover.js" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/js/popover.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/js/scrollspy.js" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/js/scrollspy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/js/tab.js" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/js/tab.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/js/tooltip.js" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/js/tooltip.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/js/transition.js" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/js/transition.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/.csscomb.json" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/.csscomb.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/.csslintrc" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/.csslintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/alerts.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/alerts.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/badges.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/badges.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/bootstrap.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/bootstrap.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/breadcrumbs.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/breadcrumbs.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/button-groups.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/button-groups.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/buttons.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/buttons.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/carousel.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/carousel.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/close.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/close.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/code.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/code.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/component-animations.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/component-animations.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/dropdowns.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/dropdowns.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/forms.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/forms.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/glyphicons.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/glyphicons.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/grid.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/grid.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/input-groups.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/input-groups.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/jumbotron.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/jumbotron.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/labels.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/labels.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/list-group.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/list-group.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/media.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/media.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/alerts.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/alerts.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/background-variant.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/background-variant.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/border-radius.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/border-radius.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/buttons.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/buttons.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/center-block.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/center-block.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/clearfix.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/clearfix.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/forms.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/forms.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/gradients.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/gradients.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/grid-framework.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/grid-framework.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/grid.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/grid.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/hide-text.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/hide-text.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/image.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/image.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/labels.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/labels.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/list-group.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/list-group.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/nav-divider.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/nav-divider.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/nav-vertical-align.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/nav-vertical-align.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/opacity.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/opacity.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/pagination.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/pagination.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/panels.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/panels.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/progress-bar.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/progress-bar.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/reset-filter.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/reset-filter.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/reset-text.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/reset-text.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/resize.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/resize.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/responsive-visibility.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/responsive-visibility.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/size.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/size.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/tab-focus.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/tab-focus.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/table-row.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/table-row.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/text-emphasis.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/text-emphasis.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/text-overflow.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/text-overflow.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/vendor-prefixes.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/mixins/vendor-prefixes.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/modals.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/modals.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/navbar.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/navbar.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/navs.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/navs.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/normalize.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/normalize.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/pager.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/pager.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/pagination.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/pagination.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/panels.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/panels.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/popovers.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/popovers.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/print.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/print.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/progress-bars.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/progress-bars.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/responsive-embed.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/responsive-embed.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/responsive-utilities.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/responsive-utilities.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/scaffolding.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/scaffolding.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/tables.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/tables.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/theme.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/theme.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/thumbnails.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/thumbnails.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/tooltip.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/tooltip.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/type.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/type.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/utilities.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/utilities.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/variables.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/variables.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/wells.less" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/less/wells.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/nuget/MyGet.ps1" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/nuget/MyGet.ps1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/nuget/bootstrap.less.nuspec" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/nuget/bootstrap.less.nuspec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/nuget/bootstrap.nuspec" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/nuget/bootstrap.nuspec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/package.js" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/package.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/bootstrap/package.json" afterPath="$PROJECT_DIR$/client/source/vendor/bootstrap/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/.bower.json" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/AUTHORS.txt" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/AUTHORS.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/LICENSE.txt" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/README.md" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/bower.json" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/dist/core.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/dist/core.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/dist/jquery.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/dist/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/dist/jquery.min.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/dist/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/dist/jquery.min.map" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/dist/jquery.min.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/dist/jquery.slim.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/dist/jquery.slim.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/dist/jquery.slim.min.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/dist/jquery.slim.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/dist/jquery.slim.min.map" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/dist/jquery.slim.min.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/external/sizzle/LICENSE.txt" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/external/sizzle/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/external/sizzle/dist/sizzle.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/external/sizzle/dist/sizzle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/external/sizzle/dist/sizzle.min.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/external/sizzle/dist/sizzle.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/external/sizzle/dist/sizzle.min.map" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/external/sizzle/dist/sizzle.min.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/.eslintrc.json" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/.eslintrc.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/ajax.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/ajax.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/ajax/jsonp.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/ajax/jsonp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/ajax/load.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/ajax/load.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/ajax/parseXML.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/ajax/parseXML.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/ajax/script.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/ajax/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/ajax/var/location.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/ajax/var/location.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/ajax/var/nonce.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/ajax/var/nonce.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/ajax/var/rquery.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/ajax/var/rquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/ajax/xhr.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/ajax/xhr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/attributes.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/attributes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/attributes/attr.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/attributes/attr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/attributes/classes.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/attributes/classes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/attributes/prop.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/attributes/prop.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/attributes/support.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/attributes/support.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/attributes/val.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/attributes/val.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/callbacks.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/callbacks.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/core.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/core.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/core/DOMEval.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/core/DOMEval.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/core/access.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/core/access.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/core/init.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/core/init.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/core/parseHTML.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/core/parseHTML.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/core/ready-no-deferred.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/core/ready-no-deferred.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/core/ready.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/core/ready.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/core/readyException.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/core/readyException.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/core/stripAndCollapse.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/core/stripAndCollapse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/core/support.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/core/support.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/core/var/rsingleTag.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/core/var/rsingleTag.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/css.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/css.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/css/addGetHookIf.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/css/addGetHookIf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/css/adjustCSS.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/css/adjustCSS.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/css/curCSS.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/css/curCSS.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/css/hiddenVisibleSelectors.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/css/hiddenVisibleSelectors.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/css/showHide.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/css/showHide.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/css/support.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/css/support.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/css/var/cssExpand.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/css/var/cssExpand.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/css/var/getStyles.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/css/var/getStyles.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/css/var/isHiddenWithinTree.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/css/var/isHiddenWithinTree.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/css/var/rmargin.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/css/var/rmargin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/css/var/rnumnonpx.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/css/var/rnumnonpx.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/css/var/swap.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/css/var/swap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/data.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/data/Data.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/data/Data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/data/var/acceptData.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/data/var/acceptData.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/data/var/dataPriv.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/data/var/dataPriv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/data/var/dataUser.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/data/var/dataUser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/deferred.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/deferred.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/deferred/exceptionHook.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/deferred/exceptionHook.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/deprecated.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/deprecated.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/dimensions.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/dimensions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/effects.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/effects.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/effects/Tween.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/effects/Tween.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/effects/animatedSelector.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/effects/animatedSelector.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/event.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/event.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/event/ajax.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/event/ajax.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/event/alias.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/event/alias.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/event/focusin.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/event/focusin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/event/support.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/event/support.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/event/trigger.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/event/trigger.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/exports/amd.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/exports/amd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/exports/global.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/exports/global.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/jquery.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/manipulation.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/manipulation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/manipulation/_evalUrl.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/manipulation/_evalUrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/manipulation/buildFragment.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/manipulation/buildFragment.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/manipulation/getAll.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/manipulation/getAll.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/manipulation/setGlobalEval.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/manipulation/setGlobalEval.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/manipulation/support.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/manipulation/support.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/manipulation/var/rcheckableType.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/manipulation/var/rcheckableType.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/manipulation/var/rscriptType.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/manipulation/var/rscriptType.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/manipulation/var/rtagName.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/manipulation/var/rtagName.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/manipulation/wrapMap.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/manipulation/wrapMap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/offset.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/offset.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/queue.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/queue.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/queue/delay.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/queue/delay.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/selector-native.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/selector-native.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/selector-sizzle.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/selector-sizzle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/selector.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/selector.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/serialize.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/serialize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/traversing.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/traversing.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/traversing/findFilter.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/traversing/findFilter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/traversing/var/dir.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/traversing/var/dir.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/traversing/var/rneedsContext.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/traversing/var/rneedsContext.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/traversing/var/siblings.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/traversing/var/siblings.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/var/ObjectFunctionString.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/var/ObjectFunctionString.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/var/arr.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/var/arr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/var/class2type.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/var/class2type.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/var/concat.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/var/concat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/var/document.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/var/document.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/var/documentElement.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/var/documentElement.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/var/fnToString.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/var/fnToString.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/var/getProto.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/var/getProto.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/var/hasOwn.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/var/hasOwn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/var/indexOf.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/var/indexOf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/var/pnum.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/var/pnum.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/var/push.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/var/push.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/var/rcssNum.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/var/rcssNum.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/var/rnothtmlwhite.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/var/rnothtmlwhite.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/var/slice.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/var/slice.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/var/support.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/var/support.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/var/toString.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/var/toString.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/jquery/src/wrap.js" afterPath="$PROJECT_DIR$/client/source/vendor/jquery/src/wrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/mdi/.bower.json" afterPath="$PROJECT_DIR$/client/source/vendor/mdi/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/mdi/bower.json" afterPath="$PROJECT_DIR$/client/source/vendor/mdi/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/mdi/css/materialdesignicons.css" afterPath="$PROJECT_DIR$/client/source/vendor/mdi/css/materialdesignicons.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/mdi/css/materialdesignicons.css.map" afterPath="$PROJECT_DIR$/client/source/vendor/mdi/css/materialdesignicons.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/mdi/css/materialdesignicons.min.css" afterPath="$PROJECT_DIR$/client/source/vendor/mdi/css/materialdesignicons.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/mdi/css/materialdesignicons.min.css.map" afterPath="$PROJECT_DIR$/client/source/vendor/mdi/css/materialdesignicons.min.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/mdi/fonts/materialdesignicons-webfont.svg" afterPath="$PROJECT_DIR$/client/source/vendor/mdi/fonts/materialdesignicons-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/mdi/license.txt" afterPath="$PROJECT_DIR$/client/source/vendor/mdi/license.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/mdi/package.json" afterPath="$PROJECT_DIR$/client/source/vendor/mdi/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/mdi/preview.html" afterPath="$PROJECT_DIR$/client/source/vendor/mdi/preview.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/mdi/scss/_core.scss" afterPath="$PROJECT_DIR$/client/source/vendor/mdi/scss/_core.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/mdi/scss/_icons.scss" afterPath="$PROJECT_DIR$/client/source/vendor/mdi/scss/_icons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/mdi/scss/_path.scss" afterPath="$PROJECT_DIR$/client/source/vendor/mdi/scss/_path.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/mdi/scss/_variables.scss" afterPath="$PROJECT_DIR$/client/source/vendor/mdi/scss/_variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/mdi/scss/materialdesignicons.scss" afterPath="$PROJECT_DIR$/client/source/vendor/mdi/scss/materialdesignicons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/sinon/.bower.json" afterPath="$PROJECT_DIR$/client/source/vendor/sinon/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/vendor/sinon/index.js" afterPath="$PROJECT_DIR$/client/source/vendor/sinon/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/views/body/home.ejs" afterPath="$PROJECT_DIR$/client/source/views/body/home.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/views/body/jobseeker-create.ejs" afterPath="$PROJECT_DIR$/client/source/views/body/jobseeker-create.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/views/body/login.ejs" afterPath="$PROJECT_DIR$/client/source/views/body/login.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/views/body/recruiter-create.ejs" afterPath="$PROJECT_DIR$/client/source/views/body/recruiter-create.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/views/partials/footer.ejs" afterPath="$PROJECT_DIR$/client/source/views/partials/footer.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/views/partials/head.ejs" afterPath="$PROJECT_DIR$/client/source/views/partials/head.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/source/views/partials/secondary-header.ejs" afterPath="$PROJECT_DIR$/client/source/views/partials/secondary-header.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulp/gulp.config.js" afterPath="$PROJECT_DIR$/gulp/gulp.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulp/index.js" afterPath="$PROJECT_DIR$/gulp/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulp/karma.conf.js" afterPath="$PROJECT_DIR$/gulp/karma.conf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulp/protractor.conf.js" afterPath="$PROJECT_DIR$/gulp/protractor.conf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulp/tasks/build.task.js" afterPath="$PROJECT_DIR$/gulp/tasks/build.task.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulp/tasks/clean.task.js" afterPath="$PROJECT_DIR$/gulp/tasks/clean.task.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulp/tasks/copy.task.js" afterPath="$PROJECT_DIR$/gulp/tasks/copy.task.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulp/tasks/css.task.js" afterPath="$PROJECT_DIR$/gulp/tasks/css.task.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulp/tasks/js-style-check.task.js" afterPath="$PROJECT_DIR$/gulp/tasks/js-style-check.task.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulp/tasks/serve.task.js" afterPath="$PROJECT_DIR$/gulp/tasks/serve.task.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulp/tasks/template.task.js" afterPath="$PROJECT_DIR$/gulp/tasks/template.task.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulp/tasks/test.task.js" afterPath="$PROJECT_DIR$/gulp/tasks/test.task.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulp/tasks/version.task.js" afterPath="$PROJECT_DIR$/gulp/tasks/version.task.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/api/city.js" afterPath="$PROJECT_DIR$/server/api/city.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/api/experience.js" afterPath="$PROJECT_DIR$/server/api/experience.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/api/jobseeker.js" afterPath="$PROJECT_DIR$/server/api/jobseeker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/api/recruiter.js" afterPath="$PROJECT_DIR$/server/api/recruiter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/api/recruiter_requirements.js" afterPath="$PROJECT_DIR$/server/api/recruiter_requirements.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/api/state.js" afterPath="$PROJECT_DIR$/server/api/state.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/api/subject.js" afterPath="$PROJECT_DIR$/server/api/subject.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/config/faculty_naukri_db.js" afterPath="$PROJECT_DIR$/server/config/faculty_naukri_db.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/controllers/city.js" afterPath="$PROJECT_DIR$/server/controllers/city.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/controllers/experience.js" afterPath="$PROJECT_DIR$/server/controllers/experience.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/controllers/jobseeker.js" afterPath="$PROJECT_DIR$/server/controllers/jobseeker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/controllers/recruiter.js" afterPath="$PROJECT_DIR$/server/controllers/recruiter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/controllers/recruiter_requirements.js" afterPath="$PROJECT_DIR$/server/controllers/recruiter_requirements.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/controllers/state.js" afterPath="$PROJECT_DIR$/server/controllers/state.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/controllers/subject.js" afterPath="$PROJECT_DIR$/server/controllers/subject.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/mysql_schema/config.js" afterPath="$PROJECT_DIR$/server/mysql_schema/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/mysql_schema/migration.js" afterPath="$PROJECT_DIR$/server/mysql_schema/migration.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/mysql_schema/samples.js" afterPath="$PROJECT_DIR$/server/mysql_schema/samples.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/mysql_schema/schema/city.js" afterPath="$PROJECT_DIR$/server/mysql_schema/schema/city.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/mysql_schema/schema/experience.js" afterPath="$PROJECT_DIR$/server/mysql_schema/schema/experience.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/mysql_schema/schema/index.js" afterPath="$PROJECT_DIR$/server/mysql_schema/schema/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/mysql_schema/schema/jobseeker.js" afterPath="$PROJECT_DIR$/server/mysql_schema/schema/jobseeker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/mysql_schema/schema/recruiter.js" afterPath="$PROJECT_DIR$/server/mysql_schema/schema/recruiter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/mysql_schema/schema/recruiter_requirements.js" afterPath="$PROJECT_DIR$/server/mysql_schema/schema/recruiter_requirements.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/mysql_schema/schema/state.js" afterPath="$PROJECT_DIR$/server/mysql_schema/schema/state.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/mysql_schema/schema/subject.js" afterPath="$PROJECT_DIR$/server/mysql_schema/schema/subject.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/routes/routes.js" afterPath="$PROJECT_DIR$/server/routes/routes.js" />
     </list>
     <ignored path="facultynaukri.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,61 +549,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="components.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/source/styles/components.css">
+      <file leaf-file-name="edit-profile.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/source/views/body/edit-profile.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1332">
-              <caret line="74" column="12" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jobseeker-create.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/source/views/body/jobseeker-create.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3744">
-              <caret line="208" column="24" selection-start-line="208" selection-start-column="24" selection-end-line="208" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="recruiter-create.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/source/views/body/recruiter-create.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/source/views/body/login.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1242">
-              <caret line="69" column="36" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/source/views/body/home.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JobseekerController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/source/scripts/controllers/JobseekerController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3312">
-              <caret line="184" column="34" selection-start-line="184" selection-start-column="34" selection-end-line="184" selection-end-column="34" />
+            <state vertical-scroll-proportion="-18.333334">
+              <caret line="293" column="76" selection-start-line="293" selection-start-column="59" selection-end-line="293" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -93,28 +562,28 @@
       <file leaf-file-name="jobseeker.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/mysql_schema/schema/jobseeker.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="63" column="12" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/routes/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="23" column="20" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jobseeker.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/api/jobseeker.js">
+      <file leaf-file-name="EditProfileController.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/source/scripts/controllers/EditProfileController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.60625">
+              <caret line="402" column="27" selection-start-line="402" selection-start-column="27" selection-end-line="402" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -123,8 +592,8 @@
       <file leaf-file-name="services.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/source/scripts/services/services.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="846">
-              <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -138,23 +607,47 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/server/api/recruiter.js" />
+        <option value="$PROJECT_DIR$/server/mysql_schema/schema/recruiter.js" />
+        <option value="$PROJECT_DIR$/server/mysql_schema/config.js" />
+        <option value="$PROJECT_DIR$/server/config/passport.js" />
+        <option value="$PROJECT_DIR$/server/config/database.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/client/source/scripts/controllers/HomeController.js" />
+        <option value="$PROJECT_DIR$/client/source/scripts/controllers/JobseekerController.js" />
+        <option value="$PROJECT_DIR$/client/source/scripts/controllers/RecruiterController.js" />
+        <option value="$PROJECT_DIR$/client/source/scripts/controllers/LoginController.js" />
+        <option value="$PROJECT_DIR$/client/source/views/body/home.ejs" />
         <option value="$PROJECT_DIR$/client/source/views/body/login.ejs" />
-        <option value="$PROJECT_DIR$/client/source/index.ejs" />
-        <option value="$PROJECT_DIR$/server/routes/routes.js" />
+        <option value="$PROJECT_DIR$/client/source/views/body/jobseeker-create.ejs" />
+        <option value="$PROJECT_DIR$/client/source/views/body/recruiter-create.ejs" />
+        <option value="$PROJECT_DIR$/client/source/views/partials/navigation.ejs" />
+        <option value="$PROJECT_DIR$/server/controllers/experience.js" />
+        <option value="$PROJECT_DIR$/server/api/experience.js" />
+        <option value="$PROJECT_DIR$/client/source/views/partials/head.ejs" />
+        <option value="$PROJECT_DIR$/client/source/scripts/app.js" />
         <option value="$PROJECT_DIR$/client/source/jsons/cities.json" />
         <option value="$PROJECT_DIR$/client/source/styles/style.css" />
-        <option value="$PROJECT_DIR$/client/source/styles/components.css" />
-        <option value="$PROJECT_DIR$/client/source/scripts/services/services.js" />
+        <option value="$PROJECT_DIR$/client/source/index.ejs" />
+        <option value="$PROJECT_DIR$/client/source/scripts/directives/directives.js" />
         <option value="$PROJECT_DIR$/server/api/jobseeker.js" />
-        <option value="$PROJECT_DIR$/client/source/scripts/controllers/JobseekerController.js" />
-        <option value="$PROJECT_DIR$/client/source/views/body/jobseeker-create.ejs" />
+        <option value="$PROJECT_DIR$/server/routes/routes.js" />
+        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/server/mysql_schema/schema/jobseeker.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/client/source/styles/components.css" />
+        <option value="$PROJECT_DIR$/server/api/state.js" />
+        <option value="$PROJECT_DIR$/server/api/city.js" />
+        <option value="$PROJECT_DIR$/client/source/scripts/services/services.js" />
+        <option value="$PROJECT_DIR$/server/mysql_schema/schema/city.js" />
+        <option value="$PROJECT_DIR$/server/controllers/city.js" />
+        <option value="$PROJECT_DIR$/client/source/views/body/edit-profile.ejs" />
+        <option value="$PROJECT_DIR$/client/source/scripts/controllers/EditProfileController.js" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true">
     <package-json value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="JsGulpfileManager">
@@ -164,13 +657,12 @@
         <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
       </GulpfileState>
     </gulpfiles>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="24" />
+    <option name="y" value="-4" />
     <option name="width" value="1301" />
-    <option name="height" value="744" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -179,7 +671,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -197,6 +689,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -244,6 +737,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="facultynaukri" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="facultynaukri" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="mysql_schema" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -267,6 +778,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="schema" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="facultynaukri" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="facultynaukri" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -354,28 +883,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="facultynaukri" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="facultynaukri" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="scripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -406,9 +913,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="facultynaukri" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="facultynaukri" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -419,6 +951,11 @@
     <property name="js-jscs-package" value="$PROJECT_DIR$/node_modules/jscs" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/source/images" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
@@ -426,9 +963,7 @@
     <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
       <method />
     </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
-      <config-file value="" />
-      <node-interpreter value="project" />
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
       <envs />
       <method />
     </configuration>
@@ -445,7 +980,6 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
@@ -456,12 +990,10 @@
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run-script" />
       <scripts />
-      <node-interpreter value="project" />
       <envs />
       <method />
     </configuration>
     <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-interpreter>project</node-interpreter>
       <node-options />
       <working-directory />
       <pass-parent-env>true</pass-parent-env>
@@ -474,15 +1006,15 @@
       <method />
     </configuration>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="ab87c05e-6981-4413-9f73-808a2edb45a2" name="Default" comment="" />
       <created>1477637086727</created>
       <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
       <updated>1477637086727</updated>
       <workItem from="1477637088477" duration="1729000" />
       <workItem from="1477638956029" duration="1062000" />
@@ -528,426 +1060,574 @@
       <workItem from="1478244551182" duration="2283000" />
       <workItem from="1478248373170" duration="1397000" />
       <workItem from="1478250218173" duration="1445000" />
-      <workItem from="1478252205243" duration="487000" />
+      <workItem from="1478252205243" duration="1426000" />
+      <workItem from="1478279758134" duration="596000" />
+      <workItem from="1478411802410" duration="1741000" />
+      <workItem from="1478413570631" duration="2263000" />
+      <workItem from="1478416579342" duration="1222000" />
+      <workItem from="1478419114353" duration="985000" />
+      <workItem from="1478421365414" duration="1394000" />
+      <workItem from="1478423410993" duration="1842000" />
+      <workItem from="1478425270517" duration="2144000" />
+      <workItem from="1478441154690" duration="1912000" />
+      <workItem from="1478443290072" duration="1924000" />
+      <workItem from="1478445232187" duration="1792000" />
+      <workItem from="1478447040959" duration="2172000" />
+      <workItem from="1478451250999" duration="1593000" />
+      <workItem from="1478453199067" duration="1111000" />
+      <workItem from="1478455137611" duration="1216000" />
+      <workItem from="1478675451256" duration="133000" />
+      <workItem from="1478675603111" duration="1863000" />
+      <workItem from="1478677488336" duration="2385000" />
+      <workItem from="1478681152310" duration="1942000" />
+      <workItem from="1478683240276" duration="1315000" />
+      <workItem from="1478685108648" duration="1650000" />
+      <workItem from="1478686979060" duration="2014000" />
+      <workItem from="1478689011049" duration="1198000" />
+      <workItem from="1478691048711" duration="1859000" />
+      <workItem from="1478693965207" duration="1799000" />
+      <workItem from="1478695784605" duration="1929000" />
+      <workItem from="1478698983016" duration="1797000" />
+      <workItem from="1478700800601" duration="1531000" />
+      <workItem from="1478848585848" duration="746000" />
+      <workItem from="1478849664325" duration="1374000" />
+      <workItem from="1479104847861" duration="1509000" />
+      <workItem from="1479106777237" duration="2111000" />
+      <workItem from="1479108907605" duration="1652000" />
+      <workItem from="1479111439952" duration="2156000" />
+      <workItem from="1479113620557" duration="1833000" />
+      <workItem from="1479115608754" duration="1803000" />
+      <workItem from="1479117432278" duration="599000" />
+      <workItem from="1479120895212" duration="1905000" />
+      <workItem from="1479122824509" duration="948000" />
+      <workItem from="1479125391756" duration="1889000" />
+      <workItem from="1479127318866" duration="1724000" />
+      <workItem from="1479129240925" duration="1305000" />
+      <workItem from="1479131070112" duration="1912000" />
+      <workItem from="1479133001654" duration="1569000" />
+      <workItem from="1479194699626" duration="690000" />
+      <workItem from="1479196519286" duration="978000" />
+      <workItem from="1479198427568" duration="621000" />
+      <workItem from="1479202816880" duration="2256000" />
+      <workItem from="1479205101197" duration="1376000" />
+      <workItem from="1479207742850" duration="2005000" />
+      <workItem from="1479212686203" duration="1929000" />
+      <workItem from="1479214638279" duration="1161000" />
+      <workItem from="1479279087695" duration="1405000" />
+      <workItem from="1479281139884" duration="794000" />
+      <workItem from="1479287021624" duration="1573000" />
+      <workItem from="1479288882620" duration="1834000" />
+      <workItem from="1479290736088" duration="1897000" />
+      <workItem from="1479293113059" duration="1911000" />
+      <workItem from="1479295043861" duration="599000" />
+      <workItem from="1479297528123" duration="1843000" />
+      <workItem from="1479299502785" duration="1965000" />
+      <workItem from="1479301614449" duration="659000" />
+      <workItem from="1479303468917" duration="599000" />
+      <workItem from="1479365618826" duration="1182000" />
+      <workItem from="1479367137499" duration="1274000" />
+      <workItem from="1479369031966" duration="1814000" />
+      <workItem from="1479370872060" duration="259000" />
+      <workItem from="1479376741142" duration="1474000" />
+      <workItem from="1479378503267" duration="1296000" />
+      <workItem from="1479381712483" duration="2397000" />
+      <workItem from="1479385277201" duration="2411000" />
+      <workItem from="1479390647822" duration="631000" />
+      <workItem from="1479648459509" duration="1411000" />
+      <workItem from="1479649892603" duration="2056000" />
+      <workItem from="1479652176657" duration="1786000" />
+      <workItem from="1479653985656" duration="1739000" />
+      <workItem from="1479655796248" duration="1786000" />
+      <workItem from="1479710911249" duration="989000" />
+      <workItem from="1479712892557" duration="640000" />
+      <workItem from="1479717374544" duration="652000" />
+      <workItem from="1479719354392" duration="769000" />
+      <workItem from="1479721189206" duration="783000" />
+      <workItem from="1479724381456" duration="610000" />
+      <workItem from="1479729975588" duration="608000" />
+      <workItem from="1479731818115" duration="618000" />
+      <workItem from="1479733743836" duration="866000" />
+      <workItem from="1479735706094" duration="618000" />
+      <workItem from="1479737965489" duration="610000" />
+      <workItem from="1479797497919" duration="626000" />
+      <workItem from="1479800066505" duration="668000" />
+      <workItem from="1479802039947" duration="611000" />
+      <workItem from="1479809096003" duration="652000" />
+      <workItem from="1479811147547" duration="737000" />
+      <workItem from="1479815693966" duration="815000" />
+      <workItem from="1479886411249" duration="592000" />
+      <workItem from="1479890784013" duration="599000" />
+      <workItem from="1479893885329" duration="599000" />
+      <workItem from="1479895723006" duration="599000" />
+      <workItem from="1479897699640" duration="610000" />
+      <workItem from="1479903591108" duration="599000" />
+      <workItem from="1479905650858" duration="1846000" />
+      <workItem from="1479971767538" duration="1838000" />
+      <workItem from="1479973634373" duration="1011000" />
+      <workItem from="1479976890533" duration="599000" />
+      <workItem from="1479978802155" duration="1791000" />
+      <workItem from="1479982049802" duration="1964000" />
+      <workItem from="1479984289969" duration="1660000" />
+      <workItem from="1479986124037" duration="598000" />
+      <workItem from="1479990615175" duration="1633000" />
+      <workItem from="1479992551729" duration="1021000" />
+      <workItem from="1479994408936" duration="1469000" />
+      <workItem from="1480057870812" duration="760000" />
+      <workItem from="1480059729954" duration="725000" />
+      <workItem from="1480061580974" duration="598000" />
+      <workItem from="1480063640463" duration="1612000" />
+      <workItem from="1480065471954" duration="627000" />
+      <workItem from="1480067312543" duration="599000" />
+      <workItem from="1480070651475" duration="1894000" />
+      <workItem from="1480072561869" duration="1301000" />
+      <workItem from="1480076183873" duration="2160000" />
+      <workItem from="1480078360165" duration="1087000" />
+      <workItem from="1480317660989" duration="1771000" />
+      <workItem from="1480322575363" duration="1793000" />
+      <workItem from="1480324462523" duration="1126000" />
+      <workItem from="1480326294699" duration="721000" />
+      <workItem from="1480328110801" duration="1308000" />
+      <workItem from="1480332326010" duration="599000" />
+      <workItem from="1480334565791" duration="1724000" />
+      <workItem from="1480336436155" duration="1712000" />
+      <workItem from="1480403754273" duration="1536000" />
+      <workItem from="1480405612942" duration="667000" />
+      <workItem from="1480407865867" duration="684000" />
+      <workItem from="1480409832056" duration="1297000" />
+      <workItem from="1480411697492" duration="614000" />
+      <workItem from="1480414179701" duration="661000" />
+      <workItem from="1480416045789" duration="605000" />
+      <workItem from="1480419306744" duration="675000" />
+      <workItem from="1480424157748" duration="1266000" />
+      <workItem from="1480426031897" duration="693000" />
+      <workItem from="1480428173677" duration="1116000" />
+      <workItem from="1480430050046" duration="1218000" />
+      <workItem from="1480488624292" duration="749000" />
+      <workItem from="1480490371862" duration="1741000" />
+      <workItem from="1480493965881" duration="1362000" />
+      <workItem from="1480495854825" duration="1806000" />
+      <workItem from="1480497679572" duration="1773000" />
+      <workItem from="1480499505349" duration="756000" />
+      <workItem from="1480502711098" duration="1262000" />
+      <workItem from="1480504919636" duration="1867000" />
+      <workItem from="1480511705783" duration="1644000" />
+      <workItem from="1480514283745" duration="195000" />
+      <workItem from="1480585993312" duration="261000" />
+      <workItem from="1480586281028" duration="1028000" />
+      <workItem from="1480588134908" duration="2064000" />
+      <workItem from="1480590728646" duration="673000" />
+      <workItem from="1480595285209" duration="785000" />
+      <workItem from="1480597848114" duration="1636000" />
+      <workItem from="1480599694819" duration="631000" />
+      <workItem from="1480601520094" duration="1824000" />
+      <workItem from="1480603367970" duration="1807000" />
+      <workItem from="1480605196086" duration="158000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51554000" />
+    <option name="totallyTimeSpent" value="258532000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960877" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2159877" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/source/jsons/cities.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/source/scripts/services/services.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="43" column="24" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/source/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/source/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/source/scripts/controllers/JobseekerController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/routes/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/source/views/body/jobseeker-create.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/source/jsons/cities.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/source/scripts/services/services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/source/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/source/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/source/scripts/controllers/JobseekerController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/routes/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/source/views/body/jobseeker-create.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/source/jsons/cities.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/source/scripts/services/services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/source/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/source/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/source/scripts/controllers/JobseekerController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/routes/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/source/views/body/jobseeker-create.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/source/scripts/services/services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/source/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/source/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/source/scripts/controllers/JobseekerController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/routes/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/source/views/body/jobseeker-create.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2556">
-          <caret line="142" column="20" selection-start-line="142" selection-start-column="20" selection-end-line="142" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/source/scripts/services/services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
+        <state vertical-scroll-proportion="0.0">
           <caret line="1" column="25" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/source/scripts/controllers/JobseekerController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/routes/routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
+        <state vertical-scroll-proportion="0.0">
           <caret line="22" column="24" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/source/views/body/jobseeker-create.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2556">
+        <state vertical-scroll-proportion="0.0">
           <caret line="142" column="20" selection-start-line="142" selection-start-column="20" selection-end-line="142" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/source/scripts/services/services.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/source/scripts/controllers/HomeController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
+        <state vertical-scroll-proportion="0.0">
           <caret line="1" column="59" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/api/subject.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state vertical-scroll-proportion="0.0">
           <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/source/scripts/controllers/HomeController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="59" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/source/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/source/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/source/styles/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/source/jsons/cities.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/routes/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/source/scripts/services/services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="846">
-          <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/api/jobseeker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/source/styles/components.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1332">
-          <caret line="74" column="12" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/source/views/body/home.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/source/views/body/login.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1242">
-          <caret line="69" column="36" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/source/scripts/controllers/JobseekerController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3312">
-          <caret line="184" column="34" selection-start-line="184" selection-start-column="34" selection-end-line="184" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/source/views/body/jobseeker-create.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3744">
-          <caret line="208" column="24" selection-start-line="208" selection-start-column="24" selection-end-line="208" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/source/views/body/recruiter-create.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/mysql_schema/schema/jobseeker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/mysql_schema/schema/recruiter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="54" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/api/recruiter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="29" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/controllers/recruiter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/controllers/state.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/mysql_schema/migration.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/mysql_schema/schema/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/api/recruiter_requirements.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/source/scripts/controllers/RecruiterController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/source/scripts/controllers/LoginController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/source/views/body/home.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/source/views/body/login.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/source/views/body/recruiter-create.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/web-forms.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="592" column="24" selection-start-line="592" selection-start-column="24" selection-end-line="592" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/protractor/testapp/lib/angular_v1.3.13/angular-aria.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/source/scripts/controllers/JobseekerController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="111" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/source/views/partials/navigation.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/controllers/jobseeker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/source/views/body/jobseeker-create.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="15" selection-start-line="0" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/source/views/partials/head.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/source/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/source/jsons/cities.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/source/scripts/controllers/HomeController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="27" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/controllers/experience.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/api/experience.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/source/styles/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2146" column="0" selection-start-line="2146" selection-start-column="0" selection-end-line="2146" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/source/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/source/scripts/directives/directives.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/api/jobseeker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.09375">
+          <caret line="110" column="0" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.037037">
+          <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/config/faculty_naukri_db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/mysql_schema/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.521875">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/api/state.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.196875">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/source/styles/components.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="332" column="1" selection-start-line="332" selection-start-column="1" selection-end-line="332" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/api/city.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/source/scripts/services/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/mysql_schema/schema/city.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/routes/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/controllers/city.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/mysql_schema/schema/jobseeker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="63" column="12" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/source/views/body/edit-profile.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.333334">
+          <caret line="293" column="76" selection-start-line="293" selection-start-column="59" selection-end-line="293" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/source/scripts/controllers/EditProfileController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.60625">
+          <caret line="402" column="27" selection-start-line="402" selection-start-column="27" selection-end-line="402" selection-end-column="27" />
           <folding />
         </state>
       </provider>

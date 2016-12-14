@@ -10,7 +10,7 @@ var sequelize = require('sequelize')
 exports.add = function (params, callback) {
     console.log("PARAMS FOR ADD EXPERIENCE " + JSON.stringify(params))
 
-    mysql.experience.bulkCreate(params).then(function(inserted_data) {
+    mysql.experience.create(params).then(function(inserted_data) {
         console.log("SUCCESS "+inserted_data);
         callback(true, 200, "SUCCESS", inserted_data);
     }).catch(function(err) {

@@ -10,7 +10,7 @@ var prod = {
     'database': 'truepe5k_truepathmakers',
     'host': 'truepathmakers.com',
     'dialect': 'mysql',
-    'logging': false,
+    'logging': true,
     'pool': {
     'max': 10,
         'min': 1,
@@ -24,7 +24,7 @@ var dev = {
     'database': 'truepe5k_truepathmakers',
     'host': 'truepathmakers.com',
     'dialect': 'mysql',
-    'logging': false,
+    'logging': true,
     'pool': {
         'max': 10,
         'min': 1,

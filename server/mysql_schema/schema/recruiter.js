@@ -22,6 +22,10 @@ module.exports = function (sequelize, DataTypes) {
             unique : true,
             allowNull : false
         },
+        institution_name : {
+            type : DataTypes.STRING,
+            allowNull : false
+        },
         institution_type_id : {
             type : DataTypes.INTEGER,
             allowNull : false
@@ -31,6 +35,10 @@ module.exports = function (sequelize, DataTypes) {
             allowNull : false
         },
         institution_pincode : {
+            type : DataTypes.INTEGER,
+            allowNull : false
+        },
+        institution_city_id : {
             type : DataTypes.INTEGER,
             allowNull : false
         },

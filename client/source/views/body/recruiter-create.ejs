@@ -1,105 +1,67 @@
 <div class="recruiter-create-container">
-
-    <nav class="navbar navbar-background flex-container-center" role="navigation"> <!--fixed-nav-->
-        <div class="navbar-header col-sm-4">
-            <a class="navbar-brand logo-container" href="/">
-                <!--<span><i class="fa fa-foursquare" aria-hidden="true"></i>&nbsp;</span>-->
-                <span class="logo"><span><i class="fa fa-foursquare" aria-hidden="true"></i></span>acultyNaukri</span>
-                <span class="logo-sub">.com</span>
-            </a>
-        </div>
-        <div class="col-sm-4 collapse padding-top-5 navbar-collapse menu-items" uib-collapse="isNavCollapsed">
-            <ul class="nav navbar-nav">
-                <li><a href="/">Home</a></li>
-                <li><a href="/#about-us">About Us</a></li>
-                <li><a href="#footer">Contact Us</a></li>
-            </ul>
-        </div>
-        <div class="col-sm-4 sign-in-links">
-            <ul class="nav navbar-nav pull-right">
-                <li>
-                    <a  href="/login">
-                        <div class="text-center">
-                            <div class="small-text">Jobseeker</div>
-                            <div>SIGN IN</div>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="/recruiter/new">
-                        <div class="text-center">
-                            <div class="small-text">Recruiter</div>
-                            <div>REGISTER HERE</div>
-                        </div>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <hr>
-
-
     <div class="shadow-box">
-        <form id="recruiter-form" name="RecruiterForm">
+        <form novalidate id="recruiter-form" name="RecruiterForm">
             <div class="form-group">
-                <div class="label-wrapper col-sm-2">
+                <div class="label-wrapper col-sm-3">
                     <label class="control-label" for="r_firstname">First Name</label>
                 </div>
-                <div class="input-group-wrapper col-sm-10">
+                <div class="input-group-wrapper col-sm-9">
                     <div class="input-group full-width">
-                        <input class="form-control" placeholder="First Name" name="r_firstname" type="text" />
+                        <input ng-model="recruiter.recruiter_firstname" class="form-control" placeholder="First Name" name="r_firstname" type="text" />
                     </div>
                 </div>
             </div>
 
 
             <div class="form-group">
-                <div class="label-wrapper col-sm-2">
+                <div class="label-wrapper col-sm-3">
                     <label class="control-label" for="r_lastname">Last Name</label>
                 </div>
-                <div class="input-group-wrapper col-sm-10">
+                <div class="input-group-wrapper col-sm-9">
                     <div class="input-group full-width">
-                        <input class="form-control" placeholder="Last Name" name="r_lastname" type="text" />
+                        <input ng-model="recruiter.recruiter_lastname" class="form-control"
+                               placeholder="Last Name" name="r_lastname" type="text" />
                     </div>
                 </div>
             </div>
 
             <div class="form-group">
-                <div class="label-wrapper col-sm-2">
+                <div class="label-wrapper col-sm-3">
                     <label class="control-label" for="r_contact">Contact</label>
                 </div>
-                <div class="input-group-wrapper col-sm-10">
+                <div class="input-group-wrapper col-sm-9">
                     <div class="input-group full-width">
-                        <input class="form-control" placeholder="Contact Number" name="r_contact" type="text" />
+                        <input ng-model="recruiter.recruiter_contact" class="form-control" placeholder="Contact Number"
+                               name="r_contact" type="text" />
                     </div>
                 </div>
             </div>
 
 
             <div class="form-group">
-                <div class="label-wrapper col-sm-2">
+                <div class="label-wrapper col-sm-3">
                     <label class="control-label" for="r_email">Email</label>
                 </div>
-                <div class="input-group-wrapper col-sm-10">
+                <div class="input-group-wrapper col-sm-9">
                     <div class="input-group full-width">
-                        <input class="form-control" placeholder="Email Address" name="r_email" type="email" />
+                        <input ng-model="recruiter.recruiter_email" class="form-control"
+                               placeholder="Email Address" name="r_email" type="email" />
                     </div>
                 </div>
             </div>
 
-
             <div class="form-group">
-                <div class="label-wrapper col-sm-2">
+                <div class="label-wrapper col-sm-3">
                     <label class="control-label" for="r_institute_type">Institute Type</label>
                 </div>
-                <div class="input-group-wrapper col-sm-10">
-                    <div class="input-group col-sm-10">
+                <div class="input-group-wrapper col-sm-9">
+                    <div class="input-group">
                         <div class="btn-group">
                             <label class="radio-inline">
-                                <input type="radio" name="r_institute_type">School
+                                <input ng-model="recruiter.institution_type_id" value="1" type="radio" name="r_institute_type">School
                             </label>
                             <label class="radio-inline">
-                                <input type="radio" name="r_institute_type">Coaching
+                                <input ng-model="recruiter.recruiter_institution_type_id" value="2" type="radio" name="r_institute_type">Coaching
                             </label>
                         </div>
                     </div>
@@ -108,39 +70,67 @@
 
 
             <div class="form-group">
-                <div class="label-wrapper col-sm-2">
+                <div class="label-wrapper col-sm-3">
                     <label class="control-label" for="r_institute">Name of Institution</label>
                 </div>
-                <div class="input-group-wrapper col-sm-10">
+                <div class="input-group-wrapper col-sm-9">
                     <div class="input-group full-width">
-                        <input class="form-control" placeholder="Name of Institution" name="r_institute" type="text" />
+                        <input ng-model="recruiter.institution_name"
+                               class="form-control" placeholder="Name of Institution"
+                               name="r_institute" type="text" />
                     </div>
                 </div>
             </div>
 
 
             <div class="form-group">
-                <div class="label-wrapper col-sm-2">
-                    <label class="control-label" for="r_institute_address">Institute Address</label>
+                <div class="label-wrapper col-sm-3">
+                    <label class="control-label" for="r_institute_address1">Institute Address 1</label>
                 </div>
-                <div class="input-group-wrapper col-sm-10">
+                <div class="input-group-wrapper col-sm-9">
                     <div class="input-group full-width">
-                        <input class="form-control" placeholder="Institute Address" name="r_institute_address" type="text" />
+                        <input ng-model="recruiter.institute_address1" class="form-control"
+                               placeholder="Address Line 1" name="r_institute_address1" type="text" />
                     </div>
                 </div>
             </div>
 
             <div class="form-group">
-                <div class="label-wrapper col-sm-2">
+                <div class="label-wrapper col-sm-3">
+                    <label class="control-label" for="r_institute_address2">Institute Address 2</label>
+                </div>
+                <div class="input-group-wrapper col-sm-9">
+                    <div class="input-group full-width">
+                        <input ng-model="recruiter.institute_address2" class="form-control"
+                               placeholder="Address Line 2" name="r_institute_address2" type="text" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="label-wrapper col-sm-3">
+                    <label class="control-label" for="r_institute_pin">Pincode</label>
+                </div>
+                <div class="input-group-wrapper col-sm-9">
+                    <div class="input-group full-width">
+                        <input ng-model="recruiter.institute_pincode" class="form-control"
+                               placeholder="Pincode" name="r_institute_pin" type="text" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="label-wrapper col-sm-3">
                     <label class="control-label" for="r_city">City</label>
                 </div>
-                <div class="input-group-wrapper col-sm-10">
+                <div class="input-group-wrapper col-sm-9">
                     <div class="input-group full-width">
                         <!-- Single button -->
-                        <select name="r_city" class="form-control">
-                            <option value="default">Choose...</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
+                        <select ng-model="recruiter.institution_city_id" name="r_city" class="form-control">
+                            <option disabled selected value> -- Choose from the cities -- </option>
+                            <option ng-repeat="city in citiesList" value="{{city.city_id}}">
+                                {{city.city_name}}
+                            </option>
                         </select>
                         <!--<select name="j_city" class="form-control" ng-model="placement.selected" ng-options="o as o for o in placement.options"></select>-->
                     </div>
@@ -149,17 +139,18 @@
 
 
             <div class="form-group">
-                <div class="label-wrapper col-sm-2">
+                <div class="label-wrapper col-sm-3">
                     <label class="control-label" for="r_requirement">Requirement</label>
                 </div>
-                <div class="input-group-wrapper col-sm-10">
+                <div class="input-group-wrapper col-sm-9">
                     <div class="input-group full-width">
-                        <!-- Single button -->
-                        <select name="r_requirement" class="form-control">
-                            <option value="default">Choose</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                        </select>
+
+                        <multiselect ng-model="recruiter.institution_requirement_ids"
+                                     options="interest.name for interest in interestedin"
+                                     data-multiple="true"
+                                     max-width="100"
+                                     tabindex="-1">
+                        </multiselect>
                         <!--<select name="j_state" class="form-control" ng-model="placement.selected" ng-options="o as o for o in placement.options"></select>-->
                     </div>
                 </div>
@@ -167,17 +158,17 @@
 
 
             <div class="form-group">
-                <div class="label-wrapper col-sm-2">
+                <div class="label-wrapper col-sm-3">
                     <label class="control-label" for="r_subject">Subject</label>
                 </div>
-                <div class="input-group-wrapper col-sm-10">
+                <div class="input-group-wrapper col-sm-9">
                     <div class="input-group full-width">
-                        <!-- Single button -->
-                        <select name="r_subject" class="form-control">
-                            <option value="default">Choose</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                        </select>
+                        <multiselect ng-model="recruiter.institution_subject_req_ids"
+                                     options="subject.subject_id as subject.subject_name for subject in subjectsList"
+                                     data-multiple="true"
+                                     max-width="100"
+                                     tabindex="-1">
+                        </multiselect>
                         <!--<select name="j_state" class="form-control" ng-model="placement.selected" ng-options="o as o for o in placement.options"></select>-->
                     </div>
                 </div>
@@ -185,17 +176,18 @@
 
 
             <div class="form-group">
-                <div class="label-wrapper col-sm-2">
+                <div class="label-wrapper col-sm-3">
                     <label class="control-label" for="r_standard">Level Or Standard</label>
                 </div>
-                <div class="input-group-wrapper col-sm-10">
+                <div class="input-group-wrapper col-sm-9">
                     <div class="input-group full-width">
                         <!-- Single button -->
-                        <select name="r_standard" class="form-control">
-                            <option value="default">Choose</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                        </select>
+                        <multiselect ng-model="recruiter.institution_req_level"
+                                     options="standard.value as standard.name for standard in standards"
+                                     data-multiple="true"
+                                     max-width="100"
+                                     tabindex="-1">
+                        </multiselect>
                         <!--<select name="j_state" class="form-control" ng-model="placement.selected" ng-options="o as o for o in placement.options"></select>-->
                     </div>
                 </div>
@@ -206,4 +198,27 @@
             </div><br><br>
         </form>
     </div><br><br><br><!-- /.container -->
+</div>
+
+
+<!-- Modal -->
+<div id="recruiter-success-modal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title title">Thanks for registering with us!</h4>
+            </div>
+            <div class="modal-body">
+                <p class="small-title">You have successfully created an account with us.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" ng-click="goToHome()" class="btn btn-primary">Go back to home</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
 </div>

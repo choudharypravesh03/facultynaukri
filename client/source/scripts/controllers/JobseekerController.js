@@ -1,8 +1,9 @@
 
 
 angular.module('naukriApp')
-.controller('JobseekerController', function($http, $scope, GetSubjectsList, GetCities, AddJobSeeker) {
+.controller('JobseekerController', function($http, $scope, $rootScope, GetSubjectsList, GetCities, AddJobSeeker) {
 
+    $rootScope.init();
 
     $scope.jobseeker = {
         jobseeker_firstname: "",
