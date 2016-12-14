@@ -24,7 +24,7 @@ exports.get = function(params, callback) {
 
     mysql.subject.findAll({
         where :  params,
-        attributes : ['subject_id', 'subject_name'],
+        attributes : ['subject_id', 'subject_name', 'subject_vacancies', 'subject_type'],
         order: 'subject_id ASC'
     }).then(function(subjects) {
         console.log("SUCCESS RESPONSE "+JSON.stringify(subjects));

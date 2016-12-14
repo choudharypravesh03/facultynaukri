@@ -12,6 +12,7 @@ angular.module('naukriApp')
                     }
                 })
                     .success(function(response, status, headers, config) {
+                        console.log(response)
                         return response;
                     })
                     .error(function(err, status, headers, config) {
@@ -74,7 +75,7 @@ angular.module('naukriApp')
                     .success(function(response) {
                         return response.data;
                     })
-                    .error(function(err) {
+                    .error(function(err, status, headers, config) {
                         console.log(err);
                         return err;
                     })

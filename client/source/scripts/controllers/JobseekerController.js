@@ -53,8 +53,6 @@ angular.module('naukriApp')
 
 
 
-
-
     /*-----------------VALIDATIONS-----------------------------*/
 
     $.validator.addMethod("valueNotEquals", function(value, element, arg) {
