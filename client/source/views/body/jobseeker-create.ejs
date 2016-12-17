@@ -136,6 +136,24 @@
 
             <div class="form-group">
                 <div class="label-wrapper col-sm-3">
+                    <label class="control-label" for="j_state">State</label>
+                </div>
+                <div class="input-group-wrapper col-sm-9">
+                    <div class="input-group full-width">
+                        <!-- Single button -->
+                        <select ng-model="jobseeker.jobseeker_state" name="j_state" ng-change="getCitiesForStateId(2)" class="form-control">
+                            <option disabled selected value> -- Choose your state -- </option>
+                            <option ng-repeat="state in statesList" value="{{state.state_id}}">
+                                {{state.state_name}}
+                            </option>
+                        </select>
+                        <!--<select name="j_city" class="form-control" ng-model="placement.selected" ng-options="o as o for o in placement.options"></select>-->
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="label-wrapper col-sm-3">
                     <label class="control-label" for="j_city">City</label>
                 </div>
                 <div class="input-group-wrapper col-sm-9">

@@ -5,7 +5,7 @@ var _ = require('underscore')
 var Subject = require('../controllers/subject')
 
     exports.addSubject = function(req, res) {
-    var params = JSON.parse(req.body.details);
+    var params = JSON.parse(req.body.subject);
     console.log("add Subject params "+JSON.stringify(params));
     Subject.add(params, function(s,c,m,d) {
         console.log("RETURNED DATA ",s,c,m,d);
@@ -32,14 +32,13 @@ exports.getSubjects = function(req, res) {
 }
 
 exports.updateSubjectVacancies = function(req, res) {
-    var subject_id =  req.body.subject_id;
-    var subject_name = req.body.subject_name;
-    var subject_type = req.body.subject_type;
-    var subject_vacancies = req.body.subject_vacancies;
+    var subject = JSON.parse(req.body.subject)
 
+    var subject_id =  subject.subject_id;
+    var subject_vacancies = subject.subject_vacancies;
+    console.log(req.body)
     var params = {
-        subject_name : subject_name,
-        subject_type : subject_type
+        subject_id : subject_id
     }
 
     var update_subject_params = {
