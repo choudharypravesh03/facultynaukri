@@ -2,43 +2,13 @@ angular.module('naukriApp')
     .controller('EditProfileController', function($http, $scope, $rootScope,
                                                   GetSubjectsList, GetCities,
                                                   AddJobSeeker, AddExperience,
-                                                  fileUpload, GetExperience, GetStates) {
+                                                  fileUpload, GetExperience, GetStates, GetJobSeeker) {
 
         $rootScope.init();
+        $scope.jobseekerData = {};
+        $scope.jobseeker = {};
 
-        $scope.jobseeker = {
-            jobseeker_firstname: "",
-            jobseeker_lastname: "",
-            jobseeker_email: "",
-            jobseeker_password: "",
-            jobseeker_password_confirm: "",
-            jobseeker_contact: "",
-            jobseeker_dob: "",
-            jobseeker_gender: "",
-            jobseeker_interested_in: "",
-            jobseeker_interested_in_name: "",
-            jobseeker_state: "",
-            jobseeker_city: "",
-            jobseeker_permanent_address: "",
-            jobseeker_state_permanent: "",
-            jobseeker_permanent_city: "",
-            jobseeker_permanent_pincode: "",
-            jobseeker_current_address: "",
-            jobseeker_state_current: "",
-            jobseeker_current_city: "",
-            jobseeker_current_pincode: "",
-            jobseeker_marital_status: "",
-            jobseeker_level: "",
-            jobseeker_subject_id: "",
-            jobseeker_level_class_id: "",
-            jobseeker_level_class_name: "",
-            jobseeker_is_experienced: "",
-            jobseeker_current_ctc: "",
-            jobseeker_expected_ctc: "",
-            jobseeker_preferred_job_location: "",
-            jobseeker_resume: "",
-            jobseeker_remarks: ""
-        }
+
 
         $scope.resumeFile = "";
 
@@ -74,6 +44,53 @@ angular.module('naukriApp')
 
         GetExperience.getExperience().success(function(response, status, headers, config) {
             $scope.experienceList = response.data;
+        })
+
+        /*-------------------------------------------------------------------------*/
+
+
+        /*---------------------SERVICE TO GET SUBJECTS DATA------------------------*/
+
+        GetJobSeeker.getJobSeeker().success(function(response, status, headers, config) {
+            console.log(response);
+            $scope.jobseekerData = response.data[0];
+
+            var firstname = toTitleCase($scope.jobseekerData.jobseeker_name.split(" ")[0]);
+            var lastname = toTitleCase($scope.jobseekerData.jobseeker_name.split(" ")[1]);
+
+            $scope.jobseeker = {
+                jobseeker_firstname: firstname,
+                jobseeker_lastname: lastname,
+                jobseeker_email: $scope.jobseekerData.jobseeker_email,
+                jobseeker_password: $scope.jobseekerData.jobseeker_password,
+                jobseeker_password_confirm: "",
+                jobseeker_contact: $scope.jobseekerData.jobseeker_contact,
+                jobseeker_dob: $scope.jobseekerData.jobseeker_dob,
+                jobseeker_gender: $scope.jobseekerData.jobseeker_gender,
+                jobseeker_interested_in: $scope.jobseekerData.jobseeker_interested_in,
+                jobseeker_interested_in_name: "",
+                jobseeker_state: $scope.jobseekerData.jobseeker_state,
+                jobseeker_city: $scope.jobseekerData.jobseeker_city,
+                jobseeker_permanent_address: $scope.jobseekerData.jobseeker_permanent_address,
+                jobseeker_state_permanent: "",
+                jobseeker_permanent_city: $scope.jobseekerData.jobseeker_permanent_city,
+                jobseeker_permanent_pincode: $scope.jobseekerData.jobseeker_permanent_pincode,
+                jobseeker_current_address: $scope.jobseekerData.jobseeker_current_address,
+                jobseeker_state_current: "",
+                jobseeker_current_city: $scope.jobseekerData.jobseeker_current_city,
+                jobseeker_current_pincode: $scope.jobseekerData.jobseeker_current_pincode,
+                jobseeker_marital_status: $scope.jobseekerData.jobseeker_marital_status,
+                jobseeker_level: $scope.jobseekerData.jobseeker_level,
+                jobseeker_subject_id: $scope.jobseekerData.jobseeker_subject_id,
+                jobseeker_level_class_id: $scope.jobseekerData.jobseeker_level_class_id,
+                jobseeker_level_class_name: "",
+                jobseeker_is_experienced: "",
+                jobseeker_current_ctc: $scope.jobseekerData.jobseeker_current_ctc,
+                jobseeker_expected_ctc: $scope.jobseekerData.jobseeker_expected_ctc,
+                jobseeker_preferred_job_location: $scope.jobseekerData.jobseeker_preferred_job_location,
+                jobseeker_resume: "",
+                jobseeker_remarks: $scope.jobseekerData.jobseeker_remarks
+            }
         })
 
         /*-------------------------------------------------------------------------*/
@@ -321,6 +338,12 @@ angular.module('naukriApp')
 
         /*-------------------------------------------------------------------------------------*/
 
+
+
+        function toTitleCase(str)
+        {
+            return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
+        }
 
 
         $scope.goToLogin = function() {

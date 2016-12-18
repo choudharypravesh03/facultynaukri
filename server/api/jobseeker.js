@@ -22,8 +22,12 @@ exports.addJobSeeker = function(req, res) {
 };
 
 var getJobSeeker = exports.getJobSeeker = function(req, res) {
-    var params = req.body.query;
-    JobSeeker.get(params, function(s,c,m,d) {
+    var cookie = JSON.parse(req.cookies.userData)
+    console.log("COOKIE "+JSON.stringify(cookie));
+    var crypt_id = {
+        id_crypt: cookie.id_crypt
+    }
+    JobSeeker.get(crypt_id, function(s,c,m,d) {
         console.log("RETURNED DATA ",s,c,m,d);
         res.send(JSON.stringify({
             status : s,

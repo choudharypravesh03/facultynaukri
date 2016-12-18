@@ -23,6 +23,29 @@ angular.module('naukriApp')
         }
     })
 
+    .factory('GetJobSeeker', function($http) {
+        return {
+            getJobSeeker: function() {
+                return $http({
+                    method: 'GET',
+                    url: '/getJobSeeker',
+                    data: '',
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded'
+                    }
+                })
+                    .success(function(response, status, headers, config) {
+                        console.log(response)
+                        return response;
+                    })
+                    .error(function(err, status, headers, config) {
+                        console.log(err);
+                        return err;
+                    })
+            }
+        }
+    })
+
     .factory('GetCities', function($http) {
         return {
             getCities: function(state_id) {

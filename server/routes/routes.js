@@ -14,7 +14,7 @@ var session  = require('express-session');
 router.post('/addJobSeeker', apisJobSeeker.addJobSeeker);
 router.post('/updateExperience', apisJobSeeker.updateJobSeeker);
 router.post('/addRecruiter', apisRecruiter.addRecruiter);
-router.get('/getJobSeeker', apisCity.getCity);
+router.get('/getJobSeeker', apisJobSeeker.getJobSeeker);
 router.post('/updateJobSeeker', apisJobSeeker.updateJobSeeker);
 router.post('/addSubject', apisSubject.addSubject);
 router.get('/getSubjects', apisSubject.getSubjects);

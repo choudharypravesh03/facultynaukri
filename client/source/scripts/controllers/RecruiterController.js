@@ -2,7 +2,7 @@
 
 
 angular.module('naukriApp')
-.controller('RecruiterController', function($scope, $http, $rootScope, GetSubjectsList, GetCities, AddRecruiter) {
+.controller('RecruiterController', function($scope, $http, $rootScope, GetSubjectsList, GetCities, GetStates, AddRecruiter) {
 
     $rootScope.init();
 
@@ -16,6 +16,7 @@ angular.module('naukriApp')
         institute_address1: "",
         institute_address2: "",
         institute_pincode: "",
+        recruiter_state: "",
         institution_city_id: "",
         institution_requirement_ids: "",
         institution_subject_req_ids: "",
@@ -38,26 +39,38 @@ angular.module('naukriApp')
 
     /*---------------------SERVICE TO GET SUBJECTS DATA------------------------*/
 
-    GetSubjectsList.getSubjects().success(function(response, status, headers, config) {
+    GetSubjectsList.getSubjects(1).success(function(response, status, headers, config) {
         $scope.subjectsList = response.data;
     })
 
     /*-------------------------------------------------------------------------*/
 
 
-    /*---------------------SERVICE TO GET CITIES DATA------------------------*/
 
-    GetCities.getCities().success(function(response) {
-        console.log(response.cities);
-        $scope.citiesList = response.cities;
+    /*---------------------SERVICE TO GET STATES DATA------------------------*/
+
+    GetStates.getStates().success(function(response, status, headers, config) {
+        $scope.statesList = response.data;
     })
 
-    /*------------------------------------------------------------------------*/
+    /*-------------------------------------------------------------------------*/
 
 
     $scope.goToHome = function () {
         $('#jobseeker-success-modal').modal('hide');
         window.location.href = '/';
+    }
+
+
+    $scope.getCitiesForStateId = function() {
+        /*---------------------SERVICE TO GET CITIES DATA------------------------*/
+
+        var state_id = $scope.recruiter.recruiter_state;
+        GetCities.getCities(state_id).success(function(response) {
+            $scope.citiesList = response.data;
+        });
+
+        /*------------------------------------------------------------------------*/
     }
 
 
@@ -163,9 +176,9 @@ angular.module('naukriApp')
                 institution_address: $scope.recruiter.institute_address1+ " " +$scope.recruiter.institute_address2,
                 institution_pincode: $scope.recruiter.institute_pincode,
                 institution_city_id: $scope.recruiter.institution_city_id,
-                institution_requirement_ids: $scope.recruiter.institution_requirement_ids.toString(),
-                institution_subject_req_ids: $scope.recruiter.institution_subject_req_ids.toString(),
-                institution_req_level: $scope.recruiter.institution_req_level.toString()
+                institution_requirement_ids: JSON.stringify($scope.recruiter.institution_requirement_ids),
+                institution_subject_req_ids: JSON.stringify($scope.recruiter.institution_subject_req_ids),
+                institution_req_level: JSON.stringify($scope.recruiter.institution_req_level)
             }
 
             console.log(data);
@@ -175,7 +188,6 @@ angular.module('naukriApp')
                 if(response.status) {
                     $("#recruiter-success-modal").modal()
                 }
-                console.log(response)
             })
         }
     });

@@ -4,8 +4,14 @@ angular.module('naukriApp')
         $rootScope.init();
         var _selected;
 
-        GetSubjectsList.getSubjects().success(function(response) {
-            $scope.subjectsList = response.data;
+        GetSubjectsList.getSubjects(1).success(function(response) {
+            console.log(response);
+            $scope.subjectsListCoaching = response.data;
+        })
+
+        GetSubjectsList.getSubjects(2).success(function(response) {
+            console.log(response);
+            $scope.subjectsListSchool = response.data;
         })
 
         $scope.selected = undefined;
@@ -31,6 +37,14 @@ angular.module('naukriApp')
                 return _selected;
             }
         };
+
+        $(document).on('click', 'a', function(event){
+            event.preventDefault();
+
+            $('html, body').animate({
+                scrollTop: $( $.attr(this, 'href') ).offset().top
+            }, 500);
+        });
 
         $scope.modelOptions = {
             debounce: {

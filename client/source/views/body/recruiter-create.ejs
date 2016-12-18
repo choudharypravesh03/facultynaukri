@@ -1,4 +1,4 @@
-<div class="recruiter-create-container">
+<div class="recruiter-create-container content-padding-top">
     <div class="shadow-box">
         <form novalidate id="recruiter-form" name="RecruiterForm">
             <div class="form-group">
@@ -121,6 +121,24 @@
 
             <div class="form-group">
                 <div class="label-wrapper col-sm-3">
+                    <label class="control-label" for="r_state">State</label>
+                </div>
+                <div class="input-group-wrapper col-sm-9">
+                    <div class="input-group full-width">
+                        <!-- Single button -->
+                        <select ng-model="recruiter.recruiter_state" name="r_state" ng-change="getCitiesForStateId(1)" class="form-control">
+                            <option disabled selected value> -- Choose your state -- </option>
+                            <option ng-repeat="state in statesList" value="{{state.state_id}}">
+                                {{state.state_name}}
+                            </option>
+                        </select>
+                        <!--<select name="j_city" class="form-control" ng-model="placement.selected" ng-options="o as o for o in placement.options"></select>-->
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="label-wrapper col-sm-3">
                     <label class="control-label" for="r_city">City</label>
                 </div>
                 <div class="input-group-wrapper col-sm-9">
@@ -193,8 +211,9 @@
                 </div>
             </div>
             <br>
-            <div class="submit-container">
-                <button type="submit" class="btn btn-width-70 btn-custom-settings">Register Now</button>
+            <div class="next-container">
+                <button type="submit"
+                        class="btn btn-width-70 btn-custom-settings">Register Now</button><br><br>
             </div><br><br>
         </form>
     </div><br><br><br><!-- /.container -->

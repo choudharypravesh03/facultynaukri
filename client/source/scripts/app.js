@@ -74,6 +74,11 @@ naukriApp.run(function($rootScope) {
         }
     };
 
+    $rootScope.logout = function() {
+        deleteAllCookies();
+        window.location.href = "/";
+    }
+
     function getCookie(cname) {
         var name = cname + "=";
         var ca = document.cookie.split(';');

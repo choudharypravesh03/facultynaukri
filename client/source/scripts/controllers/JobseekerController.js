@@ -164,7 +164,7 @@ angular.module('naukriApp')
                 jobseeker_gender: $scope.jobseeker.jobseeker_gender,
                 jobseeker_interested_in: $scope.jobseeker.jobseeker_interested_in,
                 jobseeker_city: $scope.jobseeker.jobseeker_city
-            }
+            };
 
             console.log(data);
 
@@ -185,13 +185,8 @@ angular.module('naukriApp')
 
     $scope.goToLogin = function() {
         $('#jobseeker-success-modal').modal('hide');
-        window.location.href = '/admin/edit';
-    }
-
-
-
-
-
+        window.location.href = '/';
+    };
 
 
     $scope.getCitiesForStateId = function () {
