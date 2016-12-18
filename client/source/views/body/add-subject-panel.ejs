@@ -1,0 +1,150 @@
+<div id="home-container">
+
+    <script type="text/ng-template" id="customTemplate.html">
+        <a>
+            <img ng-src="http://upload.wikimedia.org/wikipedia/commons/thumb/{{match.model.flag}}" width="16">
+            <span ng-bind-html="match.label | uibTypeaheadHighlight:query"></span>
+        </a>
+    </script>
+
+    <div id="home-header">
+        <div class="header-background">
+            <div class="center-wrapper transparent">
+                <div class="header-padding center-child">
+                    <div class="col-sm-9">
+                        <h1 class="bold text-white">Find the best opportunities to work as a Faculty!</h1><br>
+                        <div class="searchbox-holder">
+                            <form name="search-form">
+                                <div class="search-box flex-container">
+                                    <div class='col-sm-4'>
+                                        <input type="text" ng-model="skill" placeholder="Skill or Designation" uib-typeahead="state as state.name for state in statesWithFlags | filter:{name:$viewValue}" typeahead-template-url="customTemplate.html" class="form-control" typeahead-show-hint="true" typeahead-min-length="0">
+                                        <span class="caret caret-position"></span>
+                                    </div>
+                                    <div class='col-sm-3'>
+                                        <input type="text" ng-model="location" placeholder="Location" uib-typeahead="state as state.name for state in statesWithFlags | filter:{name:$viewValue}" typeahead-template-url="customTemplate.html" class="form-control" typeahead-show-hint="true" typeahead-min-length="0">
+                                        <span class="caret caret-position"></span>
+                                    </div>
+                                    <div class='col-sm-3'>
+                                        <input type="text" ng-model="experience" placeholder="Experience" uib-typeahead="state as state.name for state in statesWithFlags | filter:{name:$viewValue}" typeahead-template-url="customTemplate.html" class="form-control" typeahead-show-hint="true" typeahead-min-length="0">
+                                        <span class="caret caret-position"></span>
+                                    </div>
+                                    <div class='col-sm-2'>
+                                        <input type="text" ng-model="salary" placeholder="Salary" uib-typeahead="state as state.name for state in statesWithFlags | filter:{name:$viewValue}" typeahead-template-url="customTemplate.html" class="form-control" typeahead-show-hint="true" typeahead-min-length="0">
+                                        <span class="caret caret-position"></span>
+                                    </div>
+                                    <div class="submit-container">
+                                        <button type="submit" class="btn btn-custom-settings">Search</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 text-center">
+                        <div class="new-usertype-wrapper">
+                            <div class="small-title">Register with us</div><br>
+                            <div>
+                                <a class="btn btn-rounded btn-red full-width btn-custom-settings" href="/jobseeker/new">Jobseeker</a>
+                            </div><br>
+                            <div>
+                                <a class="btn btn-rounded btn-red full-width btn-custom-settings" href="/recruiter/new">Recruiter</a>
+                            </div><br>
+                            <div>We will create your profile</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><br><br>
+
+    <form novalidate id="add-subject-form" name="addSubjectForm">
+
+        <div class="form-group">
+            <div class="label-wrapper col-sm-3">
+                <label class="control-label" for="sub_level">You are looking for</label>
+            </div>
+            <div class="input-group-wrapper col-sm-9">
+                <div class="input-group">
+                    <div class="btn-group">
+                        <label class="radio-inline">
+                            <input ng-model="addedSubject.subject_type" ng-change="levelChanged(1)" value="1"
+                                   type="radio" name="sub_level" >Coaching Level
+                        </label>
+                        <label class="radio-inline">
+                            <input ng-model="addedSubject.subject_type" ng-change="levelChanged(2)" value="2"
+                                   type="radio" name="sub_level" >School Level
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="label-wrapper col-sm-3">
+                <label class="control-label" for="sub_subject">Choose Subject</label>
+            </div>
+            <div class="input-group-wrapper col-sm-9">
+                <div class="input-group full-width">
+                    <!-- Single button -->
+                    <input ng-model="addedSubject.subject_name" class="form-control"
+                           placeholder="Name of the subject" name="sub_name" type="text" />
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="label-wrapper col-sm-3">
+                <label class="control-label" for="sub_vacancies">Vacancies</label>
+            </div>
+            <div class="input-group-wrapper col-sm-9">
+                <div class="input-group full-width">
+                    <input ng-model="addedSubject.subject_vacancies" class="form-control"
+                           placeholder="Number of vacancies currently" name="sub_vacancies" type="text" />
+                </div>
+            </div>
+        </div>
+
+        <div class="submit-container">
+            <button id="add-subject-submit" type="submit" class="btn btn-width-70 btn-custom-settings">Add Subject</button><br><br>
+        </div>
+    </form>
+
+
+    <div id="add-subject-success-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title title">Subject has been added successfully</h4>
+                </div>
+                <div class="modal-body">
+                    <p class="small-title">You have successfully added the new subject. Please click on next to add another subject or edit a subject</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" ng-click="goToLogin()" class="btn btn-primary">Go to login</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div id="about-us" class="text-white slide aboutus-back">
+        <div class="center-wrapper">
+            <div class="center-child body-wrapper text-center">
+                <div class="display-inilne-block">
+                    <div class="title">About Us</div>
+                    <div class="separator-line-thick-white"></div>
+                </div><br><br>
+                <div class="content text-justify">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ex lectus, luctus quis mi at, aliquam auctor diam. Vivamus pulvinar nisi justo. Nunc molestie nisi vel lectus imperdiet pellentesque. Nam ipsum sapien, ultrices sit amet sodales eget, fringilla eget augue. Etiam quis libero vel augue mattis vestibulum non eget elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum cursus enim id dui sodales, sit amet malesuada lacus sollicitudin. Nam mauris ex, luctus sed iaculis quis, interdum et tortor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce ultricies libero non interdum pretium. Nullam eget purus massa. Pellentesque malesuada tortor eu nibh pharetra interdum.</p>
+                    <p>Sed tellus dolor, consequat vestibulum tempor eu, condimentum eget enim. Praesent suscipit sapien sed elit faucibus eleifend. Donec diam leo, suscipit a neque at, ornare porttitor nibh. Donec facilisis porta risus a finibus. Curabitur finibus fermentum dolor non ullamcorper. Nulla tempor sem a massa porttitor placerat. Suspendisse malesuada ultricies risus, vitae tincidunt ligula finibus eu. Phasellus varius sapien orci, nec auctor ante laoreet id. Phasellus rhoncus ex placerat nulla ultrices molestie. Ut consequat erat eu ex hendrerit auctor. Integer blandit aliquet porta. Nullam finibus ultrices vestibulum. Nullam sollicitudin mattis felis, id hendrerit est aliquet et.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

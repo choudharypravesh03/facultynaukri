@@ -198,6 +198,51 @@ angular.module('naukriApp')
     })
 
 
+    .factory('EditSubject', function ($http) {
+        return {
+            editVacancies: function(data) {
+                return $http({
+                    method: 'POST',
+                    url: '/updateSubjectVacancies',
+                    data : 'subject='+data,
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded'
+                    }
+                })
+                    .success(function(response) {
+                        return response;
+                    })
+                    .error(function(err) {
+                        console.log(err);
+                        return err;
+                    })
+            }
+        }
+    })
+
+    .factory('AddSubject', function ($http) {
+        return {
+            addSubject: function(data) {
+                return $http({
+                    method: 'POST',
+                    url: '/addSubject',
+                    data : 'subject='+data,
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded'
+                    }
+                })
+                    .success(function(response) {
+                        return response;
+                    })
+                    .error(function(err) {
+                        console.log(err);
+                        return err;
+                    })
+            }
+        }
+    })
+
+
     .factory('Login', function($http) {
         return {
             login: function(data) {

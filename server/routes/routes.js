@@ -8,7 +8,6 @@ var apisRecruiter = require('../api/recruiter');
 var apisRecruiterRequirements = require('../api/recruiter_requirements');
 var apisSubject = require('../api/subject');
 var session  = require('express-session');
-var flash    = require('connect-flash');
 
 
 
@@ -19,7 +18,7 @@ router.get('/getJobSeeker', apisCity.getCity);
 router.post('/updateJobSeeker', apisJobSeeker.updateJobSeeker);
 router.post('/addSubject', apisSubject.addSubject);
 router.get('/getSubjects', apisSubject.getSubjects);
-router.post('/updateSubjectVacancy', apisSubject.updateSubjectVacancies);
+router.post('/updateSubjectVacancies', apisSubject.updateSubjectVacancies);
 router.post('/addRecuiter', apisRecruiter.addRecruiter);
 router.get('/getCity' , apisCity.getCity);
 router.post('/uploadResume', apisJobSeeker.addResume);

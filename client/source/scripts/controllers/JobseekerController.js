@@ -1,7 +1,7 @@
 
 
 angular.module('naukriApp')
-.controller('JobseekerController', function($http, $scope, $rootScope, GetSubjectsList, GetCities, AddJobSeeker) {
+.controller('JobseekerController', function($http, $scope, $rootScope, GetSubjectsList, GetCities, GetStates, AddJobSeeker) {
 
     $rootScope.init();
 
@@ -15,6 +15,7 @@ angular.module('naukriApp')
         jobseeker_dob: "",
         jobseeker_gender: "",
         jobseeker_interested_in: "",
+        jobseeker_state : "",
         jobseeker_city: ""
     }
 
@@ -37,15 +38,17 @@ angular.module('naukriApp')
 
     /*-------------------------------------------------------------------------*/
 
-
+    GetStates.getStates().success(function (response) {
+        $scope.statesList = response.data;
+    })
 
 
 
     /*---------------------SERVICE TO GET CITIES DATA------------------------*/
 
     GetCities.getCities().success(function(response) {
-        console.log(response.cities);
-        $scope.citiesList = response.cities;
+        console.log(response.data);
+        $scope.citiesList = response.data;
     })
 
     /*------------------------------------------------------------------------*/
@@ -182,7 +185,7 @@ angular.module('naukriApp')
 
     $scope.goToLogin = function() {
         $('#jobseeker-success-modal').modal('hide');
-        window.location.href = '/login';
+        window.location.href = '/admin/edit';
     }
 
 
@@ -191,7 +194,14 @@ angular.module('naukriApp')
 
 
 
+    $scope.getCitiesForStateId = function () {
+        var state_id = $scope.jobseeker.jobseeker_state;
+        GetCities.getCities(state_id).success(function(response) {
+            console.log(response.data);
+            $scope.citiesList = response.data;
+        })
 
+    }
 
 
 

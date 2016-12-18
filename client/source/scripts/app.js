@@ -36,6 +36,16 @@ naukriApp.config(['$stateProvider', '$locationProvider',
                 templateUrl: '/views/body/edit-profile.ejs',
                 controller: 'EditProfileController'
             })
+            .state('edit-subject-panel', {
+                url: '/admin/edit',
+                templateUrl: '/views/body/edit-subject-panel.ejs',
+                controller: 'EditSubjectController'
+            })
+            .state('add-subject-panel', {
+                url: '/admin/add',
+                templateUrl: '/views/body/add-subject-panel.ejs',
+                controller: 'AddSubjectController'
+            })
 
 }])
 

@@ -6,7 +6,6 @@ var morgan = require('morgan');
 var appPath = "/client/source/";
 var ejs = require('ejs')
 var bodyParser = require('body-parser');
-var flash    = require('connect-flash');
 var cookieParser = require('cookie-parser');
 
 var routes = require('./server/routes/routes.js');
