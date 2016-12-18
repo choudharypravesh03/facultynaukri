@@ -112,6 +112,18 @@ HOME PAGE*/
     background-attachment: fixed;
 }
 
+#add-experience-modal {
+    font-size: 13px;
+}
+
+.modal-dialog {
+    width: 70%;
+}
+
+.exp-checkbox {
+    width: 20px;
+    margin: 0 auto !important;
+}
 
 /*
 LOGIN PAGE*/

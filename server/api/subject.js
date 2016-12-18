@@ -19,8 +19,11 @@ var Subject = require('../controllers/subject')
 }
 
 exports.getSubjects = function(req, res) {
-    var params = req.query;
-    Subject.get(params, function(s,c,m,d) {
+    var params = req.query.subject_type;
+    var input = {
+        subject_type: params
+    }
+    Subject.get(input, function(s,c,m,d) {
         console.log("RETURNED DATA ",s,c,m,d);
         res.send(JSON.stringify({
             status : s,

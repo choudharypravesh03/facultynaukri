@@ -2,10 +2,10 @@ angular.module('naukriApp')
 
     .factory('GetSubjectsList', function($http) {
         return {
-            getSubjects: function() {
+            getSubjects: function(type) {
                 return $http({
                     method: 'GET',
-                    url: '/getSubjects',
+                    url: '/getSubjects?subject_type='+type,
                     data: '',
                     headers: {
                         'Content-Type': 'application/x-www-form-urlencoded'

@@ -45,7 +45,9 @@ angular.module('naukriApp')
         $scope.experience = {
             experience_designation: "",
             experience_institution_name: "",
-            experience_duration: ""
+            experience_duration: "",
+            experience_is_current: "",
+            experience_notice_period: ""
         }
 
         $scope.citiesList = [];
@@ -66,16 +68,6 @@ angular.module('naukriApp')
             {value: 2, name: "12th"},
             {value: 3, name: "Other"}
         ];
-
-
-
-        /*---------------------SERVICE TO GET SUBJECTS DATA------------------------*/
-
-        GetSubjectsList.getSubjects().success(function(response, status, headers, config) {
-            $scope.subjectsList = response.data;
-        })
-
-        /*-------------------------------------------------------------------------*/
 
 
         /*---------------------SERVICE TO GET SUBJECTS DATA------------------------*/
@@ -374,6 +366,12 @@ angular.module('naukriApp')
 
         $scope.levelChanged = function(index) {
 
+            /*---------------------SERVICE TO GET SUBJECTS DATA------------------------*/
+            GetSubjectsList.getSubjects(index).success(function(response, status, headers, config) {
+                $scope.subjectsList = response.data;
+            })
+
+            /*-------------------------------------------------------------------------*/
         }
 
 
@@ -424,7 +422,9 @@ angular.module('naukriApp')
             var data = {
                 experience_designation: $scope.experience.experience_designation,
                 experience_duration: $scope.experience.experience_duration,
-                experience_institution_name: $scope.experience.experience_institution_name
+                experience_institution_name: $scope.experience.experience_institution_name,
+                experience_is_current: $scope.experience.experience_is_current,
+                experience_notice_period: $scope.experience.experience_notice_period
             }
 
             AddExperience.addExperience(JSON.stringify(data)).success(function(response, status, headers, config) {
