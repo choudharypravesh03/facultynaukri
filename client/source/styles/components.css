@@ -321,8 +321,16 @@ form button, form .btn {
 
 .footer-back {
     background-color: #333333;
+    height: 50vh;
+}
+
+.base-text {
+    color: white;
+    background: black;
+    padding: 10px;
     height: 10vh;
 }
+
 
 
 .help-block {

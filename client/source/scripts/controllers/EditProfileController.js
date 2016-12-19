@@ -2,7 +2,8 @@ angular.module('naukriApp')
     .controller('EditProfileController', function($http, $scope, $rootScope,
                                                   GetSubjectsList, GetCities,
                                                   AddJobSeeker, AddExperience,
-                                                  fileUpload, GetExperience, GetStates, GetJobSeeker) {
+                                                  fileUpload, GetExperience, GetStates,
+                                                  GetJobSeeker, GetCitiesById, GetStatebyId) {
 
         $rootScope.init();
         $scope.jobseekerData = {};
@@ -49,6 +50,9 @@ angular.module('naukriApp')
         /*-------------------------------------------------------------------------*/
 
 
+
+
+
         /*---------------------SERVICE TO GET SUBJECTS DATA------------------------*/
 
         GetJobSeeker.getJobSeeker().success(function(response, status, headers, config) {
@@ -57,15 +61,22 @@ angular.module('naukriApp')
 
             var firstname = toTitleCase($scope.jobseekerData.jobseeker_name.split(" ")[0]);
             var lastname = toTitleCase($scope.jobseekerData.jobseeker_name.split(" ")[1]);
+            var date = new Date(Number($scope.jobseekerData.jobseeker_dob));
+            console.log(date);
+
+            GetCitiesById.getCitiesById(Number($scope.jobseekerData.jobseeker_city)).success(function(response) {
+                console.log(response);
+            })
+
 
             $scope.jobseeker = {
                 jobseeker_firstname: firstname,
                 jobseeker_lastname: lastname,
                 jobseeker_email: $scope.jobseekerData.jobseeker_email,
                 jobseeker_password: $scope.jobseekerData.jobseeker_password,
-                jobseeker_password_confirm: "",
+                jobseeker_password_confirm: $scope.jobseekerData.jobseeker_password,
                 jobseeker_contact: $scope.jobseekerData.jobseeker_contact,
-                jobseeker_dob: $scope.jobseekerData.jobseeker_dob,
+                jobseeker_dob: date,
                 jobseeker_gender: $scope.jobseekerData.jobseeker_gender,
                 jobseeker_interested_in: $scope.jobseekerData.jobseeker_interested_in,
                 jobseeker_interested_in_name: "",
@@ -411,34 +422,6 @@ angular.module('naukriApp')
         }
 
 
-        $scope.getCitiesForStateId = function(index) {
-                /*---------------------SERVICE TO GET CITIES DATA------------------------*/
-
-                switch (index) {
-                    case 1:
-                        var state_id = $scope.jobseeker.jobseeker_state;
-                        GetCities.getCities(state_id).success(function(response) {
-                            $scope.citiesList = response.data;
-                        });
-                        break;
-                    case 2:
-                        var state_id_per = $scope.jobseeker.jobseeker_state_permanent;
-                        GetCities.getCities(state_id_per).success(function(response) {
-                            $scope.citiesListPermanent = response.data;
-                        });
-                        break;
-                    case 3:
-                        var state_id_cur = $scope.jobseeker.jobseeker_state_current;
-                        GetCities.getCities(state_id_cur).success(function(response) {
-                            $scope.citiesListCurrent = response.data;
-                        });
-                        break;
-                }
-
-                /*------------------------------------------------------------------------*/
-        }
-
-
 
         $scope.addExperience = function() {
 
@@ -458,6 +441,36 @@ angular.module('naukriApp')
         $scope.loadTags = function(query) {
            return $scope.citiesList
         };
+
+
+        $scope.getCitiesForStateId = function(index) {
+
+            /*---------------------SERVICE TO GET CITIES DATA------------------------*/
+
+            switch (index) {
+                case 1:
+                    var state_id = $scope.jobseeker.jobseeker_state;
+                    GetCities.getCities(state_id).success(function(response) {
+                        console.log(response);
+                        $scope.citiesList = response.data;
+                    });
+                    break;
+                case 2:
+                    var state_id_per = $scope.jobseeker.jobseeker_state_permanent;
+                    GetCities.getCities(state_id_per).success(function(response) {
+                        $scope.citiesListPermanent = response.data;
+                    });
+                    break;
+                case 3:
+                    var state_id_cur = $scope.jobseeker.jobseeker_state_current;
+                    GetCities.getCities(state_id_cur).success(function(response) {
+                        $scope.citiesListCurrent = response.data;
+                    });
+                    break;
+            }
+
+            /*------------------------------------------------------------------------*/
+        }
 
 
         $scope.getCitiesArray = function() {

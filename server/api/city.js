@@ -21,3 +21,22 @@ exports.getCity = function(req, res) {
         }))
     })
 }
+
+
+exports.getCityById = function(req, res) {
+    var params = req.query.city_id;
+    console.log("city_id  "+params)
+    var query = {
+        city_id: params
+    }
+    console.log(query);
+    City.get(query, function(s,c,m,d) {
+        console.log("RETURNED DATA ",s,c,m,d);
+        res.send(JSON.stringify({
+            status : s,
+            code : c,
+            message : m,
+            data : d
+        }))
+    })
+}

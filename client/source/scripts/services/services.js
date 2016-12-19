@@ -67,10 +67,53 @@ angular.module('naukriApp')
         }
     })
 
+    .factory('GetCitiesById', function($http) {
+        return {
+            getCitiesById: function(city_id) {
+                return $http({
+                    method: 'GET',
+                    url: '/getCityById?city_id='+city_id,
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded'
+                    }
+                })
+                    .success(function(response, status, headers, config) {
+                        return response;
+                    })
+                    .error(function(err, status, headers, config) {
+                        console.log(err);
+                        return err;
+                    })
+            }
+        }
+    })
+
 
     .factory('GetStates', function($http) {
         return {
             getStates: function() {
+                return $http({
+                    method: 'GET',
+                    url: '/getStates',
+                    data: '',
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded'
+                    }
+                })
+                    .success(function(response, status, headers, config) {
+                        return response;
+                    })
+                    .error(function(err, status, headers, config) {
+                        console.log(err);
+                        return err;
+                    })
+            }
+        }
+    })
+
+    .factory('GetStatebyId', function($http) {
+        return {
+            getStateById: function() {
                 return $http({
                     method: 'GET',
                     url: '/getStates',
