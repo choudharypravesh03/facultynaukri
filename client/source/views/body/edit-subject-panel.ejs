@@ -13,7 +13,7 @@
                 <div class="header-padding center-child">
                     <div class="col-sm-9">
                         <h1 class="bold text-white">Find the best opportunities to work as a Faculty!</h1><br>
-                        <div class="searchbox-holder">
+                        <!--<div class="searchbox-holder">
                             <form name="search-form">
                                 <div class="search-box flex-container">
                                     <div class='col-sm-4'>
@@ -37,9 +37,9 @@
                                     </div>
                                 </div>
                             </form>
-                        </div>
+                        </div>-->
                     </div>
-                    <div class="col-sm-3 text-center">
+                    <!--<div class="col-sm-3 text-center">
                         <div class="new-usertype-wrapper">
                             <div class="small-title">Register with us</div><br>
                             <div>
@@ -50,7 +50,7 @@
                             </div><br>
                             <div>We will create your profile</div>
                         </div>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </div>
@@ -86,8 +86,8 @@
                 <div class="input-group full-width">
                     <!-- Single button -->
                     <select ng-model="editedSubject.subject_id" name="sub_subject" class="form-control">
-                        <option disabled selected value> -- Choose the subject you are interested to apply for -- </option>
-                        <option ng-repeat="subject in subjectsList" value="{{subject.subject_id}}" ng-if="levelType == subject.subject_type">
+                        <option disabled selected value> -- Choose the subject you are about to edit -- </option>
+                        <option ng-repeat="subject in subjectsList" value="{{subject.subject_id}}" >
                             {{subject.subject_name}}
                         </option>
                     </select>
@@ -102,14 +102,14 @@
             <div class="input-group-wrapper col-sm-9">
                 <div class="input-group full-width">
                     <input ng-model="editedSubject.subject_vacancies" class="form-control"
-                           placeholder="Number of vacancies currently" name="sub_vacancies" type="text" />
+                           placeholder="Number of vacancies currently" name="sub_vacancies" type="number" />
                 </div>
             </div>
         </div>
 
-        <div class="submit-container">
+        <div class="submit-container flex-container-center">
             <button id="update-vacancies-submit" type="submit" class="btn btn-width-70 btn-custom-settings">Update Vacancies</button><br><br>
-        </div>
+        </div><br><br>
         </form>
 
 
@@ -123,10 +123,10 @@
                     <h4 class="modal-title title">Vacancies has been updated successfully</h4>
                 </div>
                 <div class="modal-body">
-                    <p class="small-title">You have successfully updated the vacancies for the selected subject. Please click on next to add a subject or edit another subject</p>
+                    <p class="small-title">You have successfully updated the vacancies for the selected subject. Please click on ok to add a subject or edit another subject</p>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" ng-click="goToLogin()" class="btn btn-primary">Go to login</button>
+                    <button type="button" ng-click="goToAdminHome()" class="btn btn-primary">Ok</button>
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
             </div>
@@ -134,22 +134,5 @@
         </div>
     </div>
 
-
-
-
-    <div id="about-us" class="text-white slide aboutus-back">
-        <div class="center-wrapper">
-            <div class="center-child body-wrapper text-center">
-                <div class="display-inilne-block">
-                    <div class="title">About Us</div>
-                    <div class="separator-line-thick-white"></div>
-                </div><br><br>
-                <div class="content text-justify">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ex lectus, luctus quis mi at, aliquam auctor diam. Vivamus pulvinar nisi justo. Nunc molestie nisi vel lectus imperdiet pellentesque. Nam ipsum sapien, ultrices sit amet sodales eget, fringilla eget augue. Etiam quis libero vel augue mattis vestibulum non eget elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum cursus enim id dui sodales, sit amet malesuada lacus sollicitudin. Nam mauris ex, luctus sed iaculis quis, interdum et tortor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce ultricies libero non interdum pretium. Nullam eget purus massa. Pellentesque malesuada tortor eu nibh pharetra interdum.</p>
-                    <p>Sed tellus dolor, consequat vestibulum tempor eu, condimentum eget enim. Praesent suscipit sapien sed elit faucibus eleifend. Donec diam leo, suscipit a neque at, ornare porttitor nibh. Donec facilisis porta risus a finibus. Curabitur finibus fermentum dolor non ullamcorper. Nulla tempor sem a massa porttitor placerat. Suspendisse malesuada ultricies risus, vitae tincidunt ligula finibus eu. Phasellus varius sapien orci, nec auctor ante laoreet id. Phasellus rhoncus ex placerat nulla ultrices molestie. Ut consequat erat eu ex hendrerit auctor. Integer blandit aliquet porta. Nullam finibus ultrices vestibulum. Nullam sollicitudin mattis felis, id hendrerit est aliquet et.</p>
-                </div>
-            </div>
-        </div>
-    </div>
 
 </div>

@@ -16,13 +16,10 @@ angular.module('naukriApp')
 
         $scope.levelChanged = function (index) {
             $scope.levelType = index;
+            GetSubjectsList.getSubjects(index).success(function (response) {
+                $scope.subjectsList = response.data;
+            })
         }
-
-
-
-        GetSubjectsList.getSubjects().success(function (response) {
-            $scope.subjectsList = response.data;
-        })
 
 
         $.validator.addMethod("valueNotEquals", function(value, element, arg) {
@@ -91,5 +88,9 @@ angular.module('naukriApp')
                 })
             }
         })
+
+        $scope.goToAdminHome = function () {
+            window.location.href = '/admin/edit'
+        }
 
     })

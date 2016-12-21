@@ -19,7 +19,10 @@ angular.module('naukriApp')
                     });
                     $scope.setCookie('userData', loginData, function(s) {
                         if(s) {
-                            window.location.href = "/";
+                            if($scope.login.jobseeker_email == 'siddmishra99@gmail.com')
+                                window.location.href = "/admin/edit";
+                            else
+                                window.location.href = "/";
                         } else {
                             alert("Some error occurred please try again!")
                         }

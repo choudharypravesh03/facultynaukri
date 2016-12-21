@@ -89,4 +89,8 @@ angular.module('naukriApp')
             }
         })
 
+        $scope.addAnotherSubject = function () {
+            window.location.hrref = '/admin/add'
+        }
+
     })

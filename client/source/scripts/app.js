@@ -76,7 +76,12 @@ naukriApp.run(function($rootScope) {
 
     $rootScope.logout = function() {
         deleteAllCookies();
+
+        $('.sign-in-links').show();
+        $('.logged-in-links').hide();
+
         window.location.href = "/";
+
     }
 
     function getCookie(cname) {
@@ -105,6 +110,7 @@ naukriApp.run(function($rootScope) {
         for (var i = 0; i < cookies.length; i++) {
             var cookie = cookies[i];
             var eqPos = cookie.indexOf("=");
+            console.log("Cookie")
             var name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;
             document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT";
         }
