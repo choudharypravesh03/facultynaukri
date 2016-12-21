@@ -48,7 +48,8 @@ module.exports = function (sequelize, DataTypes) {
         },
         {
             freezeTableName : true,
-            tableName : 'recruiter'
+            tableName : 'recruiter',
+            timestamps : false
         })
     return recruiter;
 

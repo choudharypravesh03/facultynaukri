@@ -70,13 +70,19 @@ module.exports = function(sequelize, DataTypes) {
         jobseeker_city : {
             type : DataTypes.STRING,
             allowNull : false
+        },
+        updatedAt : {
+            type : DataTypes.DATE,
+            writable : true
+        },
+        createdAt : {
+            type : DataTypes.DATE,
+            writable : true
         }
     },
         {
             freezeTableName : true,
             tableName : 'jobseeker'
-
-
 
     });
     return jobseeker;
