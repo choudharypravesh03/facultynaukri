@@ -29,5 +29,5 @@ app.use('/', routes);
     res.render('index.ejs');
 })*/
 
-app.listen(80);
-console.log("80 is the magic port");
+app.listen(8081);
+console.log("8081 is the magic port");
