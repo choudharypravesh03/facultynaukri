@@ -204,7 +204,7 @@
                     <div class="input-group-wrapper col-sm-9">
                         <div class="input-group full-width">
                             <!-- Single button -->
-                            <select ng-model="jobseeker.jobseeker_state_permanent" name="j_permanent_state" ng-change="getCitiesForStateId(2)" class="form-control">
+                            <select ng-model="jobseeker.jobseeker_permanent_state" name="j_permanent_state" ng-change="getCitiesForStateId(2)" class="form-control">
                                 <option disabled selected value> -- Choose your permanent state -- </option>
                                 <option ng-repeat="state in statesList" value="{{state.state_id}}">
                                     {{state.state_name}}
@@ -269,7 +269,7 @@
                     <div class="input-group-wrapper col-sm-9">
                         <div class="input-group full-width">
                             <!-- Single button -->
-                            <select ng-model="jobseeker.jobseeker_state_current" name="j_current_state" ng-change="getCitiesForStateId(3)" class="form-control">
+                            <select ng-model="jobseeker.jobseeker_current_state" name="j_current_state" ng-change="getCitiesForStateId(3)" class="form-control">
                                 <option disabled selected value> -- Choose your current state -- </option>
                                 <option ng-repeat="state in statesList" value="{{state.state_id}}">
                                     {{state.state_name}}
@@ -470,11 +470,8 @@
                     </div>
                     <div class="input-group-wrapper col-sm-9">
                         <div class="input-group full-width">
-                            <tags-input placeholder="Preferred job locations"
-                                        ng-model="jobseeker.jobseeker_preferred_job_location"
-                                        add-on-paste="true" display-property="city_name">
-                                <auto-complete source="loadTags($query)"></auto-complete>
-                            </tags-input>
+                            <input ng-model="jobseeker.jobseeker_preferred_job_location" class="form-control"
+                                   placeholder="Preferred Location" name="j_pref_job_loc" type="text" />
                         </div>
                     </div>
                 </div>

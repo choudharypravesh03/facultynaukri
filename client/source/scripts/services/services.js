@@ -174,6 +174,29 @@ angular.module('naukriApp')
     })
 
 
+    .factory('UpdateJobSeeker', function($http) {
+        return {
+            updateJobSeeker: function(data) {
+                return $http({
+                    method: 'POST',
+                    url: '/updateJobSeeker',
+                    data: 'jobseeker='+data,
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded'
+                    }
+                })
+                    .success(function(response) {
+                        return response;
+                    })
+                    .error(function(err) {
+                        console.log(err);
+                        return err;
+                    })
+            }
+        }
+    })
+
+
     .factory('AddRecruiter', function($http) {
         return {
             addRecruiter: function(data) {

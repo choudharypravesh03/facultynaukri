@@ -1,7 +1,7 @@
 angular.module('naukriApp')
     .controller('EditProfileController', function($http, $scope, $rootScope,
                                                   GetSubjectsList, GetCities,
-                                                  AddJobSeeker, AddExperience,
+                                                  UpdateJobSeeker, AddExperience,
                                                   fileUpload, GetExperience, GetStates,
                                                   GetJobSeeker, GetCitiesById, GetStatebyId) {
 
@@ -50,6 +50,13 @@ angular.module('naukriApp')
         /*-------------------------------------------------------------------------*/
 
 
+        /*---------------------SERVICE TO GET STATES DATA------------------------*/
+
+        GetStates.getStates().success(function(response, status, headers, config) {
+            $scope.statesList = response.data;
+        })
+
+        /*-------------------------------------------------------------------------*/
 
 
 
@@ -64,9 +71,44 @@ angular.module('naukriApp')
             var date = new Date(Number($scope.jobseekerData.jobseeker_dob));
             console.log(date);
 
+            var joblocation = Number($scope.jobseekerData.jobseeker_preferred_job_location);
+
             GetCitiesById.getCitiesById(Number($scope.jobseekerData.jobseeker_city)).success(function(response) {
                 console.log(response);
+                $scope.jobseeker.jobseeker_state = response.data[0].state_id;
+                GetCities.getCities(response.data[0].state_id).success(function(response2) {
+                    console.log(response2)
+                    $scope.citiesList = response2.data;
+                    $scope.jobseeker.jobseeker_city = response.data[0].city_id.toString();
+                })
             })
+
+            GetCitiesById.getCitiesById(Number($scope.jobseekerData.jobseeker_permanent_city)).success(function(responseP) {
+                console.log(responseP);
+                $scope.jobseeker.jobseeker_permanent_state = responseP.data[0].state_id;
+                GetCities.getCities(responseP.data[0].state_id).success(function(response2P) {
+                    console.log(response2P)
+                    $scope.citiesListPermanent = response2P.data;
+                    $scope.jobseeker.jobseeker_permanent_city = responseP.data[0].city_id.toString();
+                })
+            })
+
+            GetCitiesById.getCitiesById(Number($scope.jobseekerData.jobseeker_current_city)).success(function(responseC) {
+                console.log(responseC);
+                $scope.jobseeker.jobseeker_current_state = responseC.data[0].state_id;
+                GetCities.getCities(responseC.data[0].state_id).success(function(response2C) {
+                    console.log(response2C)
+                    $scope.citiesListCurrent = response2C.data;
+                    $scope.jobseeker.jobseeker_current_city = responseC.data[0].city_id.toString();
+                })
+            })
+
+
+            GetSubjectsList.getSubjects($scope.jobseekerData.jobseeker_level).success(function(subjects) {
+                $scope.subjectsList = subjects.data;
+                $scope.jobseeker.jobseeker_subject_id = $scope.jobseekerData.jobseeker_subject_id
+            })
+
 
 
             $scope.jobseeker = {
@@ -102,15 +144,6 @@ angular.module('naukriApp')
                 jobseeker_resume: "",
                 jobseeker_remarks: $scope.jobseekerData.jobseeker_remarks
             }
-        })
-
-        /*-------------------------------------------------------------------------*/
-
-
-        /*---------------------SERVICE TO GET STATES DATA------------------------*/
-
-        GetStates.getStates().success(function(response, status, headers, config) {
-            $scope.statesList = response.data;
         })
 
         /*-------------------------------------------------------------------------*/
@@ -183,7 +216,7 @@ angular.module('naukriApp')
                     minlength: 6
                 },
                 j_current_address: {
-                  minlength: 10
+                    minlength: 10
                 },
                 j_current_pincode: {
                     minlength: 6
@@ -261,28 +294,28 @@ angular.module('naukriApp')
                 console.log(validator);
 
                 /*if($('#jobseeker-edit-1').find('div.has-error').length !== 0) {
-                    console.log("1")
-                    $('#tab1').addClass('tab-has-error');
-                } else {
-                    console.log("2")
-                    $('#tab1').removeClass('tab-has-error');
-                }
+                 console.log("1")
+                 $('#tab1').addClass('tab-has-error');
+                 } else {
+                 console.log("2")
+                 $('#tab1').removeClass('tab-has-error');
+                 }
 
-                if($('#jobseeker-edit-2').find('div.has-error').length !== 0) {
-                    console.log("1")
-                    $('#tab2').addClass('tab-has-error');
-                } else {
-                    console.log("2")
-                    $('#tab2').removeClass('tab-has-error');
-                }
+                 if($('#jobseeker-edit-2').find('div.has-error').length !== 0) {
+                 console.log("1")
+                 $('#tab2').addClass('tab-has-error');
+                 } else {
+                 console.log("2")
+                 $('#tab2').removeClass('tab-has-error');
+                 }
 
-                if($('#jobseeker-edit-3').find('div.has-error').length !== 0) {
-                    console.log("1")
-                    $('#tab3').addClass('tab-has-error');
-                } else {
-                    console.log("2")
-                    $('#tab3').removeClass('tab-has-error');
-                }*/
+                 if($('#jobseeker-edit-3').find('div.has-error').length !== 0) {
+                 console.log("1")
+                 $('#tab3').addClass('tab-has-error');
+                 } else {
+                 console.log("2")
+                 $('#tab3').removeClass('tab-has-error');
+                 }*/
 
                 $('.validation-errors-message').removeClass('remove');
 
@@ -300,7 +333,7 @@ angular.module('naukriApp')
 
                 console.log("yes everything seems right!!");
                 $('.validation-errors-message').addClass('remove');
-                $('#jobseeker-submit').text("Please Wait...").prop('disabled', true);
+                //$('#jobseeker-submit').text("Please Wait...").prop('disabled', true);
 
                 var dob = new Date($scope.jobseeker.jobseeker_dob);
                 dob = dob.getTime();
@@ -336,7 +369,7 @@ angular.module('naukriApp')
 
                 console.log(data);
 
-                AddJobSeeker.addJobSeeker(JSON.stringify(data)).success(function(response) {
+                UpdateJobSeeker.updateJobSeeker(JSON.stringify(data)).success(function(response) {
                     $('#jobseeker-submit').text("Register Now").prop('disabled', false);
                     if(response.status) {
                         $("#jobseeker-success-modal").modal()
@@ -439,7 +472,7 @@ angular.module('naukriApp')
         };
 
         $scope.loadTags = function(query) {
-           return $scope.citiesList
+            return $scope.citiesList
         };
 
 
@@ -566,9 +599,9 @@ angular.module('naukriApp')
                     fd.append('file', file);
 
                     $http.post(uploadUrl,fd, {
-                        transformRequest: angular.identity,
-                        headers: {'Content-Type': undefined}
-                    })
+                            transformRequest: angular.identity,
+                            headers: {'Content-Type': undefined}
+                        })
                         .success(function(){
                             console.log("success!!");
                         })
