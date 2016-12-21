@@ -33,12 +33,17 @@ exports.get = function(params, callback) {
 }
 
 
-exports.update =  function(params, update_params, callback){
-    console.logs("PARAMS FOR UPDATE JOBSEEKER " + JSON.stringify());
+exports.update =  function(params, update_params, callback) {
+    console.log("PARAMS**********"+params);
+    console.log(params.crypt_id);
+    console.log("UPDATE PARAMS*******"+update_params);
+    console.log(update_params.jobseeker_name);
     mysql.jobseeker.update(update_params, {
-        where : params
+        where : {
+            id_crypt: params.crypt_id
+        }
     }).then(function(data){
-        callback(true, 200, "Success", jobseekers);
+        callback(true, 200, "Success", data);
     }).catch(function(err) {
         callback(false, 300, "Error : " + err, {});
     })

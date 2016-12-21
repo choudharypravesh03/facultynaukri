@@ -80,25 +80,27 @@ exports.jobseekerLogin = function(req, res) {
 
 exports.updateJobSeeker = function (req, res) {
 
-    var jobseeker_email =  req.body.jobseeker_email;
+    var cookie = JSON.parse(req.cookies.userData)
 
+    console.log("CRYPT_ID"+cookie.id_crypt)
+    var data = req.body.jobseeker;
     var params = {
-        jobseeker_email : jobseeker_email
+        crypt_id: cookie.id_crypt
     }
-    var experiences = req.body.experiences;
-    var update_params = req.body.details;
-    JobSeeker.update(params, update_params, experiences, function(s,c,m,d){
-        console.log(params.toString())
+
+
+
+    console.log(params);
+    console.log(params.crypt_id);
+
+    JobSeeker.update(params, data, function(s,c,m,d){
         if(s) {
-            Experiences.add(experiences, function (s1,c1,m1,d1) {
-                console.log(experiences.toString())
-                res.send(JSON.stringify({
-                    status : s1,
-                    code :c1,
-                    message : m1,
-                    data : d1
-                }))
-            })
+            res.send(JSON.stringify({
+                status : s,
+                code :c,
+                message : m,
+                data : d
+            }))
         }
         else {
             res.send(JSON.stringify({

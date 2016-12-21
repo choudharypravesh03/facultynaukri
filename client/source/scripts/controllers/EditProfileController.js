@@ -1,7 +1,7 @@
 angular.module('naukriApp')
     .controller('EditProfileController', function($http, $scope, $rootScope,
                                                   GetSubjectsList, GetCities,
-                                                  AddJobSeeker, AddExperience,
+                                                  UpdateJobSeeker, AddExperience,
                                                   fileUpload, GetExperience, GetStates,
                                                   GetJobSeeker, GetCitiesById, GetStatebyId) {
 
@@ -71,6 +71,8 @@ angular.module('naukriApp')
             var date = new Date(Number($scope.jobseekerData.jobseeker_dob));
             console.log(date);
 
+            var joblocation = Number($scope.jobseekerData.jobseeker_preferred_job_location);
+
             GetCitiesById.getCitiesById(Number($scope.jobseekerData.jobseeker_city)).success(function(response) {
                 console.log(response);
                 $scope.jobseeker.jobseeker_state = response.data[0].state_id;
@@ -106,6 +108,7 @@ angular.module('naukriApp')
                 $scope.subjectsList = subjects.data;
                 $scope.jobseeker.jobseeker_subject_id = $scope.jobseekerData.jobseeker_subject_id
             })
+
 
 
             $scope.jobseeker = {
@@ -330,7 +333,7 @@ angular.module('naukriApp')
 
                 console.log("yes everything seems right!!");
                 $('.validation-errors-message').addClass('remove');
-                $('#jobseeker-submit').text("Please Wait...").prop('disabled', true);
+                //$('#jobseeker-submit').text("Please Wait...").prop('disabled', true);
 
                 var dob = new Date($scope.jobseeker.jobseeker_dob);
                 dob = dob.getTime();
@@ -366,7 +369,7 @@ angular.module('naukriApp')
 
                 console.log(data);
 
-                AddJobSeeker.addJobSeeker(JSON.stringify(data)).success(function(response) {
+                UpdateJobSeeker.updateJobSeeker(JSON.stringify(data)).success(function(response) {
                     $('#jobseeker-submit').text("Register Now").prop('disabled', false);
                     if(response.status) {
                         $("#jobseeker-success-modal").modal()
