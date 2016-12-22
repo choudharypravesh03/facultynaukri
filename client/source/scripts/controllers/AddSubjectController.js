@@ -90,7 +90,7 @@ angular.module('naukriApp')
         })
 
         $scope.addAnotherSubject = function () {
-            window.location.hrref = '/admin/add'
+            window.location.href = '/admin/add'
         }
 
     })
